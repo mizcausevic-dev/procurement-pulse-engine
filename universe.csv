@@ -1,0 +1,38 @@
+domain,vertical,note
+kineticgain.com,Reference,Kinetic Gain apex
+suite.kineticgain.com,Reference,Suite hub
+clinical.kineticgain.com,Reference,Clinical landing
+decisions.kineticgain.com,Reference,Decision Card landing
+anthropic.com,AI Platform,Frontier lab
+openai.com,AI Platform,Frontier lab
+google.com,AI Platform,Gemini
+microsoft.com,AI Platform,Copilot / Azure OpenAI
+meta.com,AI Platform,Llama
+mistral.ai,AI Platform,Frontier lab
+cohere.com,AI Platform,Enterprise LLM
+perplexity.ai,AI Platform,Answer engine
+huggingface.co,AI Platform,Model hub
+khanacademy.org,EdTech,AI tutoring (Khanmigo)
+duolingo.com,EdTech,AI language tutor
+coursera.org,EdTech,Course platform
+chegg.com,EdTech,Study AI
+quizlet.com,EdTech,Study AI
+instructure.com,EdTech,Canvas LMS
+powerschool.com,EdTech,K-12 SIS
+tempus.com,HealthTech,Precision medicine AI
+pathai.com,HealthTech,Pathology AI
+viz.ai,HealthTech,Care coordination AI
+abridge.com,HealthTech,Clinical documentation AI
+nuance.com,HealthTech,Dragon / DAX
+stripe.com,FinTech,Payments
+plaid.com,FinTech,Bank data
+brex.com,FinTech,Corporate cards
+salesforce.com,Enterprise SaaS,Einstein
+servicenow.com,Enterprise SaaS,Now Assist
+workday.com,Enterprise SaaS,HCM AI
+hubspot.com,Enterprise SaaS,Marketing AI
+snowflake.com,Data,Cortex
+databricks.com,Data,Mosaic AI
+datadoghq.com,Observability,Bits AI
+okta.com,Identity,Identity AI
+cyberark.com,Identity,Privileged access

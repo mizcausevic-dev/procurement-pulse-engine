@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+.vscode/
+.idea/
+.claude/
+# data/*-raw.json can get large; keep the aggregate, ignore raw per-domain dumps
+data/*-raw.json

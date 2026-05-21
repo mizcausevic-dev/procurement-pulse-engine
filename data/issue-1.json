@@ -1,0 +1,309 @@
+{
+  "issue": "issue-1",
+  "generatedAt": "2026-05-21T17:53:30.450Z",
+  "methodology": {
+    "probe": "well-known-probe (vendored from well-known-probe-js)",
+    "concurrency": 8,
+    "timeoutMs": 6000,
+    "specsChecked": 11
+  },
+  "universe": {
+    "total": 37,
+    "verticals": 9
+  },
+  "headline": {
+    "domainsPublishingAny": 0,
+    "publicationRate": 0,
+    "avgScore": 0
+  },
+  "byVertical": {
+    "Reference": {
+      "domains": 4,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "AI Platform": {
+      "domains": 9,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "EdTech": {
+      "domains": 7,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "HealthTech": {
+      "domains": 5,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "FinTech": {
+      "domains": 3,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Enterprise SaaS": {
+      "domains": 4,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Data": {
+      "domains": 2,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Observability": {
+      "domains": 1,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Identity": {
+      "domains": 2,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    }
+  },
+  "bySpec": {
+    "aeo": {
+      "label": "aeo",
+      "publishers": 0,
+      "rate": 0
+    },
+    "agents": {
+      "label": "agents",
+      "publishers": 0,
+      "rate": 0
+    },
+    "prompts": {
+      "label": "prompts",
+      "publishers": 0,
+      "rate": 0
+    },
+    "evidence": {
+      "label": "evidence",
+      "publishers": 0,
+      "rate": 0
+    },
+    "toolCards": {
+      "label": "toolCards",
+      "publishers": 0,
+      "rate": 0
+    },
+    "tutorCards": {
+      "label": "tutorCards",
+      "publishers": 0,
+      "rate": 0
+    },
+    "studentAI": {
+      "label": "studentAI",
+      "publishers": 0,
+      "rate": 0
+    },
+    "classroomAUP": {
+      "label": "classroomAUP",
+      "publishers": 0,
+      "rate": 0
+    },
+    "clinicalAI": {
+      "label": "clinicalAI",
+      "publishers": 0,
+      "rate": 0
+    },
+    "incidents": {
+      "label": "incidents",
+      "publishers": 0,
+      "rate": 0
+    },
+    "decisions": {
+      "label": "decisions",
+      "publishers": 0,
+      "rate": 0
+    }
+  },
+  "leaderboard": [
+    {
+      "domain": "kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "suite.kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "clinical.kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "decisions.kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "anthropic.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "openai.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "google.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "microsoft.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "meta.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "mistral.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "cohere.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "perplexity.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "huggingface.co",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "khanacademy.org",
+      "vertical": "EdTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "duolingo.com",
+      "vertical": "EdTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "coursera.org",
+      "vertical": "EdTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "chegg.com",
+      "vertical": "EdTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "quizlet.com",
+      "vertical": "EdTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "instructure.com",
+      "vertical": "EdTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "powerschool.com",
+      "vertical": "EdTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "tempus.com",
+      "vertical": "HealthTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "pathai.com",
+      "vertical": "HealthTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "viz.ai",
+      "vertical": "HealthTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "abridge.com",
+      "vertical": "HealthTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "nuance.com",
+      "vertical": "HealthTech",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    }
+  ]
+}

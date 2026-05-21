@@ -1,0 +1,31 @@
+{
+  "name": "procurement-pulse-engine",
+  "version": "0.1.0",
+  "description": "The crawl + aggregate engine behind the AI Procurement Pulse — probes a universe of vendor domains for the eleven Kinetic Gain Protocol Suite documents and produces the quarterly issue dataset.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "crawl": "node src/run.mjs",
+    "lint": "node --check src/run.mjs && node --check src/aggregate.mjs && node --check src/probe.mjs && node --check src/scoring.mjs",
+    "test": "node --test"
+  },
+  "keywords": [
+    "ai-governance",
+    "procurement",
+    "well-known",
+    "crawler",
+    "kinetic-gain-protocol-suite",
+    "ai-procurement-pulse",
+    "research"
+  ],
+  "author": "Miz Causevic <miz@kineticgain.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizcausevic-dev/procurement-pulse-engine.git"
+  },
+  "homepage": "https://pulse.kineticgain.com/"
+}
