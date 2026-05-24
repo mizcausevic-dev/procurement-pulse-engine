@@ -1,0 +1,213 @@
+{
+  "from": "issue-1",
+  "to": "issue-2",
+  "generatedAt": "2026-05-24T21:02:30.173Z",
+  "headline": {
+    "universeTotalDelta": 313,
+    "domainsPublishingAnyDelta": 1,
+    "publicationRateDelta": 0.0029,
+    "avgScoreDelta": 0.3,
+    "verifiedRateDelta": 0
+  },
+  "byVertical": {
+    "AI Platform": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 31
+    },
+    "Automotive / Robotics": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 10
+    },
+    "CX / Support AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 10
+    },
+    "Data": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 29
+    },
+    "Dev Tools": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 14
+    },
+    "EdTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 35
+    },
+    "Enterprise SaaS": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 35
+    },
+    "FinTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 29
+    },
+    "Government / Defense": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 3
+    },
+    "HR / Recruiting AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 8
+    },
+    "HealthTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 36
+    },
+    "Identity": {
+      "status": "dropped",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": -2
+    },
+    "Identity & Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 28
+    },
+    "Insurance AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 5
+    },
+    "Legal AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 12
+    },
+    "Marketing / Content AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 12
+    },
+    "Observability": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 11
+    },
+    "Reference": {
+      "status": "changed",
+      "publicationRateDelta": 0.25,
+      "avgScoreDelta": 25,
+      "domainsDelta": 0
+    },
+    "Retail / Commerce": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 7
+    }
+  },
+  "bySpec": {
+    "aeo": {
+      "label": "aeo",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "agents": {
+      "label": "agents",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "classroomAUP": {
+      "label": "classroomAUP",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "clinicalAI": {
+      "label": "clinicalAI",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "decisions": {
+      "label": "decisions",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "evidence": {
+      "label": "evidence",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "incidents": {
+      "label": "incidents",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "prompts": {
+      "label": "prompts",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "studentAI": {
+      "label": "studentAI",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "toolCards": {
+      "label": "toolCards",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "tutorCards": {
+      "label": "tutorCards",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    }
+  },
+  "domains": {
+    "newlyPublishing": 1,
+    "stoppedPublishing": 0,
+    "changed": 1,
+    "movers": [
+      {
+        "domain": "kineticgain.com",
+        "fromScore": 0,
+        "toScore": 100,
+        "delta": 100,
+        "gainedSpecs": [
+          "agents",
+          "decisions",
+          "studentAI",
+          "classroomAUP",
+          "prompts",
+          "toolCards",
+          "aeo",
+          "incidents",
+          "evidence",
+          "clinicalAI",
+          "tutorCards"
+        ],
+        "lostSpecs": [],
+        "verifiedDelta": 0
+      }
+    ]
+  }
+}
