@@ -29,6 +29,10 @@ This is the honest starting line. The Suite shipped in 2025; adoption begins fro
 npm run crawl -- --issue issue-1                  # full universe.csv
 node src/run.mjs --issue issue-1 --limit 5        # first 5 domains (smoke test)
 node src/run.mjs --issue issue-2 --concurrency 12 # next issue, more parallelism
+
+# diff two issues (aggregate deltas; add --from-raw/--to-raw for per-domain movers)
+npm run drift -- --from data/issue-1.json --to data/issue-2.json \
+  --from-raw data/issue-1-raw.json --to-raw data/issue-2-raw.json
 ```
 
 | Flag | Default | Meaning |
@@ -42,15 +46,43 @@ node src/run.mjs --issue issue-2 --concurrency 12 # next issue, more parallelism
 
 ```jsonc
 {
-  "issue": "issue-1",
-  "generatedAt": "2026-05-21T…",
-  "universe": { "total": 37, "verticals": 9 },
-  "headline": { "domainsPublishingAny": 0, "publicationRate": 0, "avgScore": 0 },
-  "byVertical": { "AI Platform": { "domains": 9, "publicationRate": 0, "avgScore": 0 }, … },
-  "bySpec": { "aeo": { "label": "AEO Protocol", "publishers": 0, "rate": 0 }, … },
-  "leaderboard": [ { "domain": "…", "score": 0, "tier": "none", "published": 0 }, … ]
+  "issue": "issue-2",
+  "generatedAt": "2026-05-24T…",
+  "universe": { "total": 350, "verticals": 18 },
+  "headline": { "domainsPublishingAny": 1, "publicationRate": 0.0029, "avgScore": 0.3 },
+  "signatures": { "foundDocs": 11, "verifiedDocs": 0, "invalidDocs": 0, "verifiedRate": 0 },
+  "byVertical": { "AI Platform": { "domains": 40, "publicationRate": 0, "avgScore": 0 }, … },
+  "bySpec": { "aeo": { "label": "AEO Protocol", "publishers": 1, "rate": 0.0029, "verified": 0 }, … },
+  "leaderboard": [ { "domain": "kineticgain.com", "score": 100, "tier": "comprehensive", "published": 11 }, … ]
 }
 ```
+
+## Signature verification (ed25519)
+
+Each found document is checked for an ed25519 signature using Node's built-in `crypto` (no dependencies). A signed Suite document carries a top-level `signature` block:
+
+```jsonc
+"signature": {
+  "algorithm": "ed25519",
+  "public_key": "<base64 SPKI-DER>",
+  "signing_key_url": "https://vendor.example/.well-known/keys/2026.json", // optional
+  "value": "<base64 ed25519 signature>"
+}
+```
+
+The signature covers the **canonical** serialization of the document with its own `signature` block removed (recursively key-sorted JSON, array order preserved). Each document resolves to one of three states, surfaced per-document and rolled up into `signatures` / `bySpec[].verified`:
+
+| Status | Meaning |
+| --- | --- |
+| `verified` | Signature present and verifies (tamper-evident). |
+| `unsigned` | No `signature` block. |
+| `invalid` | Signature present but fails verification, or malformed. |
+
+By default the embedded `public_key` is used (tamper-evidence). Pass `--verify-key-fetch` semantics (`verifyKeyFetch` option) to instead trust the key fetched from `signing_key_url` (provenance). Mirrors [`hash-attestation-rs`](https://github.com/mizcausevic-dev/hash-attestation-rs).
+
+## Drift (`src/drift.mjs`)
+
+`driftAggregate(prev, curr)` diffs two committed issue datasets (headline / per-vertical / per-spec / signature-rate deltas, and flags `new` / `dropped` verticals). `driftDomains(prevRaw, currRaw)` diffs the per-domain raw arrays to find movers — newly publishing, stopped, score and per-spec changes. The CLI writes `data/<to>-drift.json` and prints a human summary.
 
 ## Crawl etiquette
 
@@ -58,10 +90,11 @@ GET-only requests to public, designed-to-be-fetched `/.well-known/` paths. Bound
 
 ## Roadmap
 
-- **Expand the universe** to the full ~1,200 domains (Fortune 500 + top 100 EdTech + top 50 HealthTech) for the first public Issue #1.
-- **Signature verification** — when a document references a `signing_key_url`, verify the ed25519 signature (via `hash-attestation-rs`).
-- **Drift tracking** — diff each issue against the previous to report which vendors added/changed/removed documents.
+- **Expand the universe** further toward ~1,200 domains. Issue #2 grew the lens from 37 → **350 domains across 18 verticals**; the next pass deepens toward Fortune 500 + top 100 K-12 EdTech + top 50 HealthTech AI.
+- ✅ **Signature verification** — ed25519 over the canonical document hash (`src/signature.mjs`).
+- ✅ **Drift tracking** — `src/drift.mjs` diffs each issue against the previous.
 - **Scheduled GH Action** that runs the crawl quarterly and commits the dataset, which triggers the landing-site rebuild.
+- **Sign the dogfooded docs** — sign kineticgain.com's own Suite documents so they flip from `unsigned` to `verified`.
 
 ## Composes with
 

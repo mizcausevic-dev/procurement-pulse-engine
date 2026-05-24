@@ -31,15 +31,30 @@ export function aggregate(universe, probes, meta) {
 
   const bySpec = {};
   for (const slug of specSlugs) {
-    const count = probes.filter((p) => p.documents[slug]?.found).length;
+    const found = probes.filter((p) => p.documents[slug]?.found);
+    const verified = found.filter((p) => p.documents[slug]?.signature === "verified").length;
     bySpec[slug] = {
       label: SUITE_PATHS[slug].label ?? slug,
-      publishers: count,
-      rate: total ? +(count / total).toFixed(4) : 0,
+      publishers: found.length,
+      rate: total ? +(found.length / total).toFixed(4) : 0,
+      verified,
     };
   }
 
   const anyPublished = probes.filter((p) => p.published.length > 0).length;
+
+  // ed25519 signature posture across every found document in the universe.
+  let foundDocs = 0;
+  let verifiedDocs = 0;
+  let invalidDocs = 0;
+  for (const p of probes) {
+    foundDocs += p.published.length;
+    for (const slug of p.published) {
+      const st = p.documents[slug]?.signature;
+      if (st === "verified") verifiedDocs += 1;
+      else if (st === "invalid") invalidDocs += 1;
+    }
+  }
 
   return {
     issue: meta.issue,
@@ -49,12 +64,19 @@ export function aggregate(universe, probes, meta) {
       concurrency: meta.concurrency ?? null,
       timeoutMs: meta.timeoutMs ?? null,
       specsChecked: specSlugs.length,
+      signatureCheck: "ed25519 over canonical document hash",
     },
     universe: { total, verticals: Object.keys(byVertical).length },
     headline: {
       domainsPublishingAny: anyPublished,
       publicationRate: total ? +(anyPublished / total).toFixed(4) : 0,
       avgScore: total ? +(probes.reduce((s, p) => s + p.score, 0) / total).toFixed(1) : 0,
+    },
+    signatures: {
+      foundDocs,
+      verifiedDocs,
+      invalidDocs,
+      verifiedRate: foundDocs ? +(verifiedDocs / foundDocs).toFixed(4) : 0,
     },
     byVertical,
     bySpec,

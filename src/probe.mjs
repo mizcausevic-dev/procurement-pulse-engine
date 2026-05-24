@@ -4,6 +4,7 @@
  */
 
 import { scoreResult } from "./scoring.mjs";
+import { verifyDocument } from "./signature.mjs";
 
 /**
  * The eleven canonical Suite paths. Each entry maps a spec slug to its
@@ -47,6 +48,7 @@ const SPEC_COUNT = Object.keys(SUITE_PATHS).length;
  * @property {string} [url]       The exact URL probed.
  * @property {object} [json]      The parsed JSON payload (only present if found).
  * @property {string} [version]   The value of the discriminator field, if it was checked.
+ * @property {'verified'|'unsigned'|'invalid'} [signature]  ed25519 posture (only present if found).
  * @property {string} [error]     Error message if the probe failed.
  */
 
@@ -59,6 +61,7 @@ const SPEC_COUNT = Object.keys(SUITE_PATHS).length;
  * @property {Record<string, DocumentResult>} documents  One entry per SUITE_PATHS key.
  * @property {string[]} published Slugs of documents that were found.
  * @property {string[]} missing   Slugs of documents that were NOT found.
+ * @property {{found:number, verified:number, unsigned:number, invalid:number}} signatures  ed25519 posture across found docs.
  */
 
 /**
@@ -74,6 +77,7 @@ export async function probeWellKnown(domain, options = {}) {
     signal,
     fetch: fetchImpl = globalThis.fetch,
     scheme = "https",
+    verifyKeyFetch = false,
   } = options;
 
   if (typeof fetchImpl !== "function") {
@@ -91,13 +95,22 @@ export async function probeWellKnown(domain, options = {}) {
   /** @type {Record<string, DocumentResult>} */
   const documents = {};
   const tasks = Object.entries(SUITE_PATHS).map(async ([slug, spec]) => {
-    documents[slug] = await probeOne(origin, spec, { fetchImpl, timeout, externalSignal: signal });
+    documents[slug] = await probeOne(origin, spec, { fetchImpl, timeout, externalSignal: signal, verifyKeyFetch });
   });
   await Promise.all(tasks);
 
   const published = Object.keys(documents).filter((slug) => documents[slug].found);
   const missing = Object.keys(documents).filter((slug) => !documents[slug].found);
   const { score, tier } = scoreResult({ found: published.length, total: SPEC_COUNT });
+
+  // Signature posture across the documents that were found.
+  const signatures = { found: published.length, verified: 0, unsigned: 0, invalid: 0 };
+  for (const slug of published) {
+    const s = documents[slug].signature;
+    if (s === "verified") signatures.verified += 1;
+    else if (s === "invalid") signatures.invalid += 1;
+    else signatures.unsigned += 1;
+  }
 
   return {
     domain: hostnameFromOrigin(origin),
@@ -107,6 +120,7 @@ export async function probeWellKnown(domain, options = {}) {
     documents,
     published,
     missing,
+    signatures,
   };
 }
 
@@ -116,7 +130,7 @@ export async function probeWellKnown(domain, options = {}) {
  * @param {{ fetchImpl: typeof fetch, timeout: number, externalSignal?: AbortSignal }} ctx
  * @returns {Promise<DocumentResult>}
  */
-async function probeOne(origin, spec, { fetchImpl, timeout, externalSignal }) {
+async function probeOne(origin, spec, { fetchImpl, timeout, externalSignal, verifyKeyFetch = false }) {
   const url = origin + spec.url;
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), timeout);
@@ -152,14 +166,16 @@ async function probeOne(origin, spec, { fetchImpl, timeout, externalSignal }) {
           error: `200 OK but missing required discriminator field '${spec.discriminator}'`,
         };
       }
-      return { status: 200, found: true, url, json, version };
+      const signature = await signatureStatus(json, { fetchImpl, verifyKeyFetch });
+      return { status: 200, found: true, url, json, version, signature };
     }
 
     // No discriminator (index files). Accept any object/array as found.
     if (!json || (typeof json !== "object")) {
       return { status: 200, found: false, url, error: "expected JSON object or array" };
     }
-    return { status: 200, found: true, url, json };
+    const signature = await signatureStatus(json, { fetchImpl, verifyKeyFetch });
+    return { status: 200, found: true, url, json, signature };
   } catch (err) {
     if (err && typeof err === "object" && /** @type {any} */ (err).name === "AbortError") {
       return { status: 0, found: false, url, error: `timed out after ${timeout}ms` };
@@ -168,6 +184,20 @@ async function probeOne(origin, spec, { fetchImpl, timeout, externalSignal }) {
   } finally {
     clearTimeout(timer);
     if (externalSignal) externalSignal.removeEventListener("abort", onExternalAbort);
+  }
+}
+
+/**
+ * Resolve a found document's ed25519 posture to a single status string.
+ * Never throws — verification failures degrade to 'invalid'/'unsigned'.
+ * @returns {Promise<'verified'|'unsigned'|'invalid'>}
+ */
+async function signatureStatus(json, { fetchImpl, verifyKeyFetch }) {
+  try {
+    const { status } = await verifyDocument(json, { fetchKey: verifyKeyFetch, fetch: fetchImpl });
+    return status;
+  } catch {
+    return "unsigned";
   }
 }
 

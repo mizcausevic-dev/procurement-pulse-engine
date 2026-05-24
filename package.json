@@ -6,7 +6,8 @@
   "private": true,
   "scripts": {
     "crawl": "node src/run.mjs",
-    "lint": "node --check src/run.mjs && node --check src/aggregate.mjs && node --check src/probe.mjs && node --check src/scoring.mjs",
+    "drift": "node src/drift.mjs",
+    "lint": "node --check src/run.mjs && node --check src/aggregate.mjs && node --check src/probe.mjs && node --check src/scoring.mjs && node --check src/signature.mjs && node --check src/drift.mjs",
     "test": "node --test"
   },
   "keywords": [
