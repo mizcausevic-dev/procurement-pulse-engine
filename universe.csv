@@ -1078,13 +1078,12 @@ swimm.io,AI Coding & Developer AI,Code docs / onboarding
 codium.ai,AI Coding & Developer AI,Qodo AI tests + reviews
 qodo.ai,AI Coding & Developer AI,Qodo platform
 sweep.dev,AI Coding & Developer AI,AI PR generation
-mutable.ai,AI Coding & Developer AI,AI codebase understanding
+mutableai.com,AI Coding & Developer AI,AI codebase understanding
 codacy.com,AI Coding & Developer AI,Code quality + AI
 sonarsource.com,AI Coding & Developer AI,SonarQube + AI CodeFix
 contrastsecurity.com,AI Coding & Developer AI,Contrast security
 phind.com,AI Coding & Developer AI,Developer AI search
 greptile.com,AI Coding & Developer AI,Codebase Q&A
-unblocked.com,AI Coding & Developer AI,Codebase context AI
 zencoder.ai,AI Coding & Developer AI,Coding agent
 codeguide.dev,AI Coding & Developer AI,Code guide AI
 fine.dev,AI Coding & Developer AI,AI dev environment
@@ -1100,7 +1099,6 @@ railway.app,AI Coding & Developer AI,Railway deployment
 gitpod.io,AI Coding & Developer AI,Gitpod cloud dev
 coderhq.com,AI Coding & Developer AI,Coder enterprise
 chargecast.io,AI Coding & Developer AI,AI dev tools
-copilotforpentest.com,AI Coding & Developer AI,Pentest AI copilot
 langchain.com,AI Agent Platform,LangChain agent framework
 llamaindex.ai,AI Agent Platform,LlamaIndex
 crewai.com,AI Agent Platform,CrewAI multi-agent
@@ -1131,7 +1129,7 @@ parea.ai,AI Agent Platform,LLM evals
 braintrust.dev,AI Agent Platform,Braintrust eval
 humanloop.com,AI Agent Platform,Humanloop eval
 agentops.ai,AI Agent Platform,AgentOps monitoring
-weights-and-biases.com,AI Agent Platform,Weights & Biases
+wandb.com,AI Agent Platform,Weights & Biases
 clearml.ai,AI Agent Platform,ClearML
 zenml.io,AI Agent Platform,ZenML
 flyte.org,AI Agent Platform,Flyte orchestration
@@ -1169,8 +1167,6 @@ ragas.io,AI Data Labeling,Ragas RAG eval
 deepeval.com,AI Data Labeling,DeepEval
 giskard.ai,AI Data Labeling,Giskard eval
 deepchecks.com,AI Data Labeling,Deepchecks
-oneflow-eval.com,AI Data Labeling,Oneflow eval
-inspect-evals.dev,AI Data Labeling,Inspect Evals
 marketo.com,MarTech,Marketo Adobe
 acoustic.co,MarTech,Acoustic Campaign
 emarsys.com,MarTech,Emarsys SAP
@@ -1263,7 +1259,7 @@ aircall.io,Customer Service Platform,Aircall voice
 ooma.com,Customer Service Platform,Ooma
 vonage.com,Customer Service Platform,Vonage Contact Center
 dixa.com,Customer Service Platform,Dixa
-re-amaze.com,Customer Service Platform,Re:amaze
+reamaze.com,Customer Service Platform,Re:amaze
 adobesign.com,Document & eSignature,Adobe Acrobat Sign
 pandadoc.com,Document & eSignature,PandaDoc
 hellosign.com,Document & eSignature,Dropbox Sign
@@ -1354,7 +1350,7 @@ deputy.com,Vertical SaaS,Deputy scheduling
 hotschedules.com,Vertical SaaS,HotSchedules
 wheniwork.com,Vertical SaaS,When I Work
 homebase.com,Vertical SaaS,Homebase scheduling
-mindbody.com,Vertical SaaS,Mindbody wellness
+mindbodyonline.com,Vertical SaaS,Mindbody wellness
 zenoti.com,Vertical SaaS,Zenoti spa / salon
 booker.com,Vertical SaaS,Booker Mindbody
 vagaro.com,Vertical SaaS,Vagaro
@@ -1381,8 +1377,8 @@ buildertrend.com,Vertical SaaS,Buildertrend
 coconstruct.com,Vertical SaaS,CoConstruct
 buildxact.com,Vertical SaaS,BuildXact
 planswift.com,Vertical SaaS,PlanSwift
-stack.com,Vertical SaaS,STACK Construction
-viewpointforprojects.com,Vertical SaaS,Viewpoint Spectrum
+constructconnect.com,Vertical SaaS,ConstructConnect (STACK acquisition)
+viewpoint.com,Vertical SaaS,Trimble Viewpoint construction
 foundationsoft.com,Vertical SaaS,Foundation Software
 acumatica.com,Vertical SaaS,Acumatica
 yardi.com,Vertical SaaS,Yardi
