@@ -1007,3 +1007,415 @@ handoff.kineticgain.com,Workflow / Integration,Operator surface (integration evi
 workforce.kineticgain.com,Workforce / Internal Comm,Operator surface (UKG workforce disclosure mirror — v2 strategy Workforce sub-vertical anchor) — v1.0-prod 2026-05-28
 policy.kineticgain.com,Workforce / Internal Comm,Operator surface (employee AI acceptable-use board — v2 strategy Workforce sub-vertical) — v1.0-prod 2026-05-28
 flows.kineticgain.com,Growth Ops,Operator surface (klaviyo-flow-consent-audit — v2 strategy Phase 0 anchor #3 Growth Ops) — v1.0-prod 2026-05-28
+segment.com,Customer Data Platform,CDP — Twilio Segment
+hightouch.com,Customer Data Platform,Reverse ETL
+getcensus.com,Customer Data Platform,Reverse ETL
+rudderstack.com,Customer Data Platform,CDP / event pipeline
+mparticle.com,Customer Data Platform,CDP
+tealium.com,Customer Data Platform,CDP
+lytics.com,Customer Data Platform,CDP
+treasuredata.com,Customer Data Platform,CDP
+amperity.com,Customer Data Platform,CDP enterprise
+blueshift.com,Customer Data Platform,Cross-channel CDP
+bloomreach.com,Customer Data Platform,Commerce CDP
+piwikpro.com,Customer Data Platform,Privacy-first analytics + CDP
+freshpaint.io,Customer Data Platform,Privacy-safe event pipeline
+jitsu.com,Customer Data Platform,Open-source CDP
+snowplow.io,Customer Data Platform,Event data + CDP
+fullcontact.com,Customer Data Platform,Identity resolution
+liveramp.com,Customer Data Platform,Identity & data activation
+mixpanel.com,Customer Data Platform,Product analytics + ID
+posthog.com,Customer Data Platform,Open-source product analytics
+heap.io,Customer Data Platform,Product analytics
+amplitude.com,Customer Data Platform,Product analytics
+fullstory.com,Customer Data Platform,Digital experience analytics
+contentsquare.com,Customer Data Platform,Digital experience analytics
+hotjar.com,Customer Data Platform,Behavior analytics
+quantummetric.com,Customer Data Platform,Digital experience intel
+bigcommerce.com,eCommerce Platform,Headless-capable commerce
+commercetools.com,eCommerce Platform,Composable commerce
+saleor.io,eCommerce Platform,Open-source headless commerce
+medusajs.com,eCommerce Platform,Open-source commerce
+vendure.io,eCommerce Platform,Headless commerce
+swell.is,eCommerce Platform,Headless commerce
+centra.com,eCommerce Platform,Headless commerce
+shopware.com,eCommerce Platform,Shopware
+spreecommerce.org,eCommerce Platform,Spree open-source
+elasticpath.com,eCommerce Platform,Composable commerce
+fabric.inc,eCommerce Platform,Composable commerce
+oroinc.com,eCommerce Platform,B2B commerce
+nopcommerce.com,eCommerce Platform,nopCommerce
+woocommerce.com,eCommerce Platform,WooCommerce
+magento.com,eCommerce Platform,Adobe Commerce / Magento
+prestashop.com,eCommerce Platform,PrestaShop
+sylius.com,eCommerce Platform,Sylius Symfony commerce
+opencart.com,eCommerce Platform,OpenCart
+kibocommerce.com,eCommerce Platform,Kibo
+sharetribe.com,eCommerce Platform,Marketplace platform
+mirakl.com,eCommerce Platform,Enterprise marketplace platform
+vtex.com,eCommerce Platform,Composable commerce
+rechargepayments.com,eCommerce Platform,Recharge subscriptions
+ordergroove.com,eCommerce Platform,Subscriptions / replenishment
+yotpo.com,eCommerce Platform,Reviews + loyalty
+gorgias.com,eCommerce Platform,Helpdesk for commerce
+loopreturns.com,eCommerce Platform,Returns platform
+parcellab.com,eCommerce Platform,Post-purchase
+narvar.com,eCommerce Platform,Post-purchase / tracking
+contentful.com,eCommerce Platform,Headless CMS for commerce
+storyblok.com,eCommerce Platform,Headless CMS
+sanity.io,eCommerce Platform,Headless CMS
+hygraph.com,eCommerce Platform,Headless CMS
+strapi.io,eCommerce Platform,Open-source headless CMS
+prismic.io,eCommerce Platform,Headless CMS
+directus.io,eCommerce Platform,Open-source headless CMS
+payloadcms.com,eCommerce Platform,Headless CMS
+continue.dev,AI Coding & Developer AI,Open-source coding agent
+aider.chat,AI Coding & Developer AI,Terminal AI pair-programming
+windsurf.com,AI Coding & Developer AI,Codeium IDE
+zed.dev,AI Coding & Developer AI,AI-native editor
+mintlify.com,AI Coding & Developer AI,AI docs
+swimm.io,AI Coding & Developer AI,Code docs / onboarding
+codium.ai,AI Coding & Developer AI,Qodo AI tests + reviews
+qodo.ai,AI Coding & Developer AI,Qodo platform
+sweep.dev,AI Coding & Developer AI,AI PR generation
+mutable.ai,AI Coding & Developer AI,AI codebase understanding
+codacy.com,AI Coding & Developer AI,Code quality + AI
+sonarsource.com,AI Coding & Developer AI,SonarQube + AI CodeFix
+contrastsecurity.com,AI Coding & Developer AI,Contrast security
+phind.com,AI Coding & Developer AI,Developer AI search
+greptile.com,AI Coding & Developer AI,Codebase Q&A
+unblocked.com,AI Coding & Developer AI,Codebase context AI
+zencoder.ai,AI Coding & Developer AI,Coding agent
+codeguide.dev,AI Coding & Developer AI,Code guide AI
+fine.dev,AI Coding & Developer AI,AI dev environment
+bito.ai,AI Coding & Developer AI,AI code review
+codestream.com,AI Coding & Developer AI,Code review collab
+phorm.ai,AI Coding & Developer AI,Codebase Q&A
+double.bot,AI Coding & Developer AI,AI code copilot
+factory.ai,AI Coding & Developer AI,AI engineering agents
+melty.sh,AI Coding & Developer AI,Open-source AI IDE
+e2b.dev,AI Coding & Developer AI,E2B agent sandboxes
+fly.io,AI Coding & Developer AI,Fly.io developer platform
+railway.app,AI Coding & Developer AI,Railway deployment
+gitpod.io,AI Coding & Developer AI,Gitpod cloud dev
+coderhq.com,AI Coding & Developer AI,Coder enterprise
+chargecast.io,AI Coding & Developer AI,AI dev tools
+copilotforpentest.com,AI Coding & Developer AI,Pentest AI copilot
+langchain.com,AI Agent Platform,LangChain agent framework
+llamaindex.ai,AI Agent Platform,LlamaIndex
+crewai.com,AI Agent Platform,CrewAI multi-agent
+botpress.com,AI Agent Platform,Conversational AI platform
+voiceflow.com,AI Agent Platform,Voice / chat AI flows
+rasa.com,AI Agent Platform,Open-source conversational
+n8n.io,AI Agent Platform,Workflow / agent automation
+make.com,AI Agent Platform,No-code agent / workflow
+zapier.com,AI Agent Platform,Zapier automation + agents
+relay.app,AI Agent Platform,Agentic workflow
+gumloop.com,AI Agent Platform,No-code AI workflows
+agenta.ai,AI Agent Platform,LLM ops + agents
+fixie.ai,AI Agent Platform,Fixie agent platform
+adept.ai,AI Agent Platform,Adept ACT-1
+multion.ai,AI Agent Platform,Browser-control agents
+cognition.ai,AI Agent Platform,Devin AI software engineer
+beam.cloud,AI Agent Platform,Beam compute
+deepinfra.com,AI Agent Platform,DeepInfra
+abacus.ai,AI Agent Platform,Abacus
+predibase.com,AI Agent Platform,Predibase
+gradient.ai,AI Agent Platform,Gradient AI
+deci.ai,AI Agent Platform,Deci model efficiency
+tecton.ai,AI Agent Platform,Feature platform
+langfuse.com,AI Agent Platform,LLM observability + eval
+helicone.ai,AI Agent Platform,LLM proxy + observability
+laminar.dev,AI Agent Platform,LLM tracing
+parea.ai,AI Agent Platform,LLM evals
+braintrust.dev,AI Agent Platform,Braintrust eval
+humanloop.com,AI Agent Platform,Humanloop eval
+agentops.ai,AI Agent Platform,AgentOps monitoring
+weights-and-biases.com,AI Agent Platform,Weights & Biases
+clearml.ai,AI Agent Platform,ClearML
+zenml.io,AI Agent Platform,ZenML
+flyte.org,AI Agent Platform,Flyte orchestration
+prefect.io,AI Agent Platform,Prefect orchestration
+dagster.io,AI Agent Platform,Dagster orchestration
+labelbox.com,AI Data Labeling,Labelbox
+snorkel.ai,AI Data Labeling,Snorkel programmatic labeling
+toloka.ai,AI Data Labeling,Toloka crowdsourcing
+cloudfactory.com,AI Data Labeling,CloudFactory
+samasource.org,AI Data Labeling,Sama
+appen.com,AI Data Labeling,Appen
+labellerr.com,AI Data Labeling,Labellerr
+v7labs.com,AI Data Labeling,V7 Darwin
+encord.com,AI Data Labeling,Encord annotation
+clarifai.com,AI Data Labeling,Clarifai vision + label
+roboflow.com,AI Data Labeling,Roboflow vision data
+voxel51.com,AI Data Labeling,FiftyOne dataset tooling
+explosion.ai,AI Data Labeling,Prodigy / spaCy
+heartex.com,AI Data Labeling,Label Studio Enterprise
+labelstud.io,AI Data Labeling,Label Studio open-source
+kili-technology.com,AI Data Labeling,Kili
+isahit.com,AI Data Labeling,Isahit
+defined.ai,AI Data Labeling,Defined.ai
+diffgram.com,AI Data Labeling,Diffgram
+hivedata.co,AI Data Labeling,Hive data
+ango.ai,AI Data Labeling,Ango Hub
+prolific.com,AI Data Labeling,Prolific research panels
+turing.com,AI Data Labeling,Turing AI training
+invisible.co,AI Data Labeling,Invisible AI training
+remotetasks.com,AI Data Labeling,RemoteTasks Scale
+clickworker.com,AI Data Labeling,Clickworker
+edenai.com,AI Data Labeling,Eden AI
+robustintelligence.com,AI Data Labeling,Robust Intelligence
+ragas.io,AI Data Labeling,Ragas RAG eval
+deepeval.com,AI Data Labeling,DeepEval
+giskard.ai,AI Data Labeling,Giskard eval
+deepchecks.com,AI Data Labeling,Deepchecks
+oneflow-eval.com,AI Data Labeling,Oneflow eval
+inspect-evals.dev,AI Data Labeling,Inspect Evals
+marketo.com,MarTech,Marketo Adobe
+acoustic.co,MarTech,Acoustic Campaign
+emarsys.com,MarTech,Emarsys SAP
+activecampaign.com,MarTech,ActiveCampaign
+convertkit.com,MarTech,ConvertKit
+drip.com,MarTech,Drip
+brevo.com,MarTech,Brevo Sendinblue
+mailerlite.com,MarTech,MailerLite
+constantcontact.com,MarTech,Constant Contact
+omnisend.com,MarTech,Omnisend commerce email
+braze.com,MarTech,Braze customer engagement
+iterable.com,MarTech,Iterable cross-channel
+attentive.com,MarTech,Attentive SMS
+postscript.io,MarTech,Postscript SMS
+emotive.io,MarTech,Emotive SMS
+movableink.com,MarTech,Movable Ink dynamic content
+litmus.com,MarTech,Litmus email testing
+emailoctopus.com,MarTech,EmailOctopus
+beefree.io,MarTech,BEE Free email design
+mailmodo.com,MarTech,Mailmodo interactive email
+flodesk.com,MarTech,Flodesk
+mailmunch.com,MarTech,MailMunch
+seventhsense.com,MarTech,Seventh Sense
+sailthru.com,MarTech,Sailthru
+listrak.com,MarTech,Listrak
+splashthat.com,MarTech,Splash events
+sixsense.com,MarTech,6sense ABM
+demandbase.com,MarTech,Demandbase ABM
+terminus.com,MarTech,Terminus ABM
+metadata.io,MarTech,Metadata paid ABM
+rollworks.com,MarTech,RollWorks ABM
+qualified.com,MarTech,Qualified conversational
+drift.com,MarTech,Drift conversational
+lusha.com,MarTech,Lusha
+apollo.io,MarTech,Apollo.io
+clearbit.com,MarTech,Clearbit
+hunter.io,MarTech,Hunter
+chorus.ai,MarTech,Chorus.ai
+people.ai,MarTech,People.ai
+crayon.co,MarTech,Crayon competitive intel
+klue.com,MarTech,Klue
+similarweb.com,MarTech,Similarweb
+sparktoro.com,MarTech,SparkToro
+moz.com,MarTech,Moz
+clearscope.io,MarTech,Clearscope
+marketmuse.com,MarTech,MarketMuse
+contently.com,MarTech,Contently
+contentstack.com,MarTech,Contentstack DXP
+acquia.com,MarTech,Acquia
+sitecore.com,MarTech,Sitecore
+optimizely.com,MarTech,Optimizely
+mux.com,MarTech,Mux video infrastructure
+brightcove.com,MarTech,Brightcove
+vidyard.com,MarTech,Vidyard
+wistia.com,MarTech,Wistia
+loom.com,MarTech,Loom
+vimeo.com,MarTech,Vimeo
+livestorm.co,MarTech,Livestorm
+demio.com,MarTech,Demio webinars
+on24.com,MarTech,ON24
+typeform.com,MarTech,Typeform
+surveymonkey.com,MarTech,SurveyMonkey
+medallia.com,MarTech,Medallia
+freshdesk.com,Customer Service Platform,Freshdesk
+helpscout.com,Customer Service Platform,Help Scout
+front.com,Customer Service Platform,Front
+groovehq.com,Customer Service Platform,Groove
+liveagent.com,Customer Service Platform,LiveAgent
+hiverhq.com,Customer Service Platform,Hiver
+spiceworks.com,Customer Service Platform,Spiceworks
+zoho.com,Customer Service Platform,Zoho Desk
+sysaid.com,Customer Service Platform,SysAid
+manageengine.com,Customer Service Platform,ManageEngine ServiceDesk
+bmc.com,Customer Service Platform,BMC Helix
+ivanti.com,Customer Service Platform,Ivanti
+solarwinds.com,Customer Service Platform,SolarWinds Service Desk
+kayako.com,Customer Service Platform,Kayako
+osticket.com,Customer Service Platform,osTicket open-source
+otrs.com,Customer Service Platform,OTRS
+zammad.com,Customer Service Platform,Zammad open-source
+freescout.net,Customer Service Platform,FreeScout open-source
+deskpro.com,Customer Service Platform,Deskpro
+happyfox.com,Customer Service Platform,HappyFox
+teamsupport.com,Customer Service Platform,TeamSupport
+liveperson.com,Customer Service Platform,LivePerson
+genesys.com,Customer Service Platform,Genesys Cloud
+ringcentral.com,Customer Service Platform,RingCentral Contact Center
+8x8.com,Customer Service Platform,8x8 Contact Center
+aircall.io,Customer Service Platform,Aircall voice
+ooma.com,Customer Service Platform,Ooma
+vonage.com,Customer Service Platform,Vonage Contact Center
+dixa.com,Customer Service Platform,Dixa
+re-amaze.com,Customer Service Platform,Re:amaze
+adobesign.com,Document & eSignature,Adobe Acrobat Sign
+pandadoc.com,Document & eSignature,PandaDoc
+hellosign.com,Document & eSignature,Dropbox Sign
+signrequest.com,Document & eSignature,SignRequest
+signnow.com,Document & eSignature,signNow
+eversign.com,Document & eSignature,Eversign
+oneflow.com,Document & eSignature,Oneflow
+proposify.com,Document & eSignature,Proposify
+qwilr.com,Document & eSignature,Qwilr
+formstack.com,Document & eSignature,Formstack
+jotform.com,Document & eSignature,Jotform
+contractbook.com,Document & eSignature,Contractbook
+juro.com,Document & eSignature,Juro
+agiloft.com,Document & eSignature,Agiloft CLM
+malbek.io,Document & eSignature,Malbek
+icertis.com,Document & eSignature,Icertis
+conga.com,Document & eSignature,Conga CLM + docs
+spotdraft.com,Document & eSignature,SpotDraft
+linksquares.com,Document & eSignature,LinkSquares
+evisort.com,Document & eSignature,Evisort
+nintex.com,Document & eSignature,Nintex workflow + docs
+docuware.com,Document & eSignature,DocuWare
+mfiles.com,Document & eSignature,M-Files
+laserfiche.com,Document & eSignature,Laserfiche
+bamboohr.com,Mid-Market HR/Payroll,BambooHR
+justworks.com,Mid-Market HR/Payroll,Justworks
+remote.com,Mid-Market HR/Payroll,Remote
+papayaglobal.com,Mid-Market HR/Payroll,Papaya Global
+oysterhr.com,Mid-Market HR/Payroll,Oyster
+multiplier.com,Mid-Market HR/Payroll,Multiplier
+playroll.com,Mid-Market HR/Payroll,Playroll
+horizons.com,Mid-Market HR/Payroll,Horizons
+omnipresent.com,Mid-Market HR/Payroll,Omnipresent
+velocityglobal.com,Mid-Market HR/Payroll,Velocity Global
+safeguardglobal.com,Mid-Market HR/Payroll,Safeguard Global
+checkr.com,Mid-Market HR/Payroll,Checkr background checks
+goodhire.com,Mid-Market HR/Payroll,GoodHire background
+sterling.com,Mid-Market HR/Payroll,Sterling
+hireright.com,Mid-Market HR/Payroll,HireRight
+firstadvantage.com,Mid-Market HR/Payroll,First Advantage
+paychex.com,Mid-Market HR/Payroll,Paychex
+paycom.com,Mid-Market HR/Payroll,Paycom
+paylocity.com,Mid-Market HR/Payroll,Paylocity
+ceridian.com,Mid-Market HR/Payroll,Ceridian Dayforce
+trinet.com,Mid-Market HR/Payroll,TriNet
+insperity.com,Mid-Market HR/Payroll,Insperity
+namely.com,Mid-Market HR/Payroll,Namely
+workable.com,Mid-Market HR/Payroll,Workable ATS
+breezy.hr,Mid-Market HR/Payroll,Breezy HR
+recruitee.com,Mid-Market HR/Payroll,Recruitee
+icims.com,Mid-Market HR/Payroll,iCIMS
+jobvite.com,Mid-Market HR/Payroll,Jobvite
+smartrecruiters.com,Mid-Market HR/Payroll,SmartRecruiters
+teamtailor.com,Mid-Market HR/Payroll,Teamtailor
+clearcompany.com,Mid-Market HR/Payroll,ClearCompany
+jazzhr.com,Mid-Market HR/Payroll,JazzHR
+freshteam.com,Mid-Market HR/Payroll,Freshteam Freshworks
+hireology.com,Mid-Market HR/Payroll,Hireology
+crelate.com,Mid-Market HR/Payroll,Crelate
+bullhorn.com,Mid-Market HR/Payroll,Bullhorn staffing CRM
+jobdiva.com,Mid-Market HR/Payroll,JobDiva
+ceipal.com,Mid-Market HR/Payroll,Ceipal
+avionte.com,Mid-Market HR/Payroll,Avionte
+qonto.com,Mid-Market HR/Payroll,Qonto biz banking EU
+pleo.io,Mid-Market HR/Payroll,Pleo expense + cards
+spendesk.com,Mid-Market HR/Payroll,Spendesk
+expensify.com,Mid-Market HR/Payroll,Expensify
+concur.com,Mid-Market HR/Payroll,SAP Concur
+mineraltree.com,Mid-Market HR/Payroll,MineralTree
+tipalti.com,Mid-Market HR/Payroll,Tipalti
+trolley.com,Mid-Market HR/Payroll,Trolley payouts
+payoneer.com,Mid-Market HR/Payroll,Payoneer
+toast.com,Vertical SaaS,Toast restaurant
+tabit.cloud,Vertical SaaS,Tabit
+revelsystems.com,Vertical SaaS,Revel POS
+lightspeed.com,Vertical SaaS,Lightspeed POS
+clover.com,Vertical SaaS,Clover Fiserv
+poslavu.com,Vertical SaaS,Lavu POS
+upserve.com,Vertical SaaS,Upserve
+opentable.com,Vertical SaaS,OpenTable
+resy.com,Vertical SaaS,Resy
+sevenrooms.com,Vertical SaaS,SevenRooms
+restaurant365.com,Vertical SaaS,Restaurant365
+marginedge.com,Vertical SaaS,MarginEdge
+crunchtime.com,Vertical SaaS,CrunchTime
+7shifts.com,Vertical SaaS,7shifts restaurant
+deputy.com,Vertical SaaS,Deputy scheduling
+hotschedules.com,Vertical SaaS,HotSchedules
+wheniwork.com,Vertical SaaS,When I Work
+homebase.com,Vertical SaaS,Homebase scheduling
+mindbody.com,Vertical SaaS,Mindbody wellness
+zenoti.com,Vertical SaaS,Zenoti spa / salon
+booker.com,Vertical SaaS,Booker Mindbody
+vagaro.com,Vertical SaaS,Vagaro
+glofox.com,Vertical SaaS,Glofox ABC Fitness
+abcfitness.com,Vertical SaaS,ABC Fitness Solutions
+clubautomation.com,Vertical SaaS,Club Automation
+trainerize.com,Vertical SaaS,Trainerize
+fresha.com,Vertical SaaS,Fresha
+boulevard.io,Vertical SaaS,Boulevard
+appointy.com,Vertical SaaS,Appointy
+schedulista.com,Vertical SaaS,Schedulista
+simplybook.me,Vertical SaaS,SimplyBook.me
+servicetitan.com,Vertical SaaS,ServiceTitan trades
+fieldedge.com,Vertical SaaS,FieldEdge
+jobber.com,Vertical SaaS,Jobber
+housecallpro.com,Vertical SaaS,Housecall Pro
+servicefusion.com,Vertical SaaS,Service Fusion
+mhelpdesk.com,Vertical SaaS,mHelpDesk
+servicechannel.com,Vertical SaaS,ServiceChannel
+servicemax.com,Vertical SaaS,ServiceMax PTC
+fieldwire.com,Vertical SaaS,Fieldwire construction
+procore.com,Vertical SaaS,Procore construction
+buildertrend.com,Vertical SaaS,Buildertrend
+coconstruct.com,Vertical SaaS,CoConstruct
+buildxact.com,Vertical SaaS,BuildXact
+planswift.com,Vertical SaaS,PlanSwift
+stack.com,Vertical SaaS,STACK Construction
+viewpointforprojects.com,Vertical SaaS,Viewpoint Spectrum
+foundationsoft.com,Vertical SaaS,Foundation Software
+acumatica.com,Vertical SaaS,Acumatica
+yardi.com,Vertical SaaS,Yardi
+realpage.com,Vertical SaaS,RealPage
+appfolio.com,Vertical SaaS,AppFolio
+buildium.com,Vertical SaaS,Buildium
+entrata.com,Vertical SaaS,Entrata
+mrisoftware.com,Vertical SaaS,MRI Software
+costar.com,Vertical SaaS,CoStar Group
+loopnet.com,Vertical SaaS,LoopNet
+crexi.com,Vertical SaaS,Crexi
+boldtrail.com,Vertical SaaS,BoldTrail
+followupboss.com,Vertical SaaS,Follow Up Boss
+topproducer.com,Vertical SaaS,Top Producer
+lwolf.com,Vertical SaaS,Lone Wolf
+dotloop.com,Vertical SaaS,Dotloop
+skyslope.com,Vertical SaaS,SkySlope
+remine.com,Vertical SaaS,Remine
+mycase.com,Vertical SaaS,MyCase
+practicepanther.com,Vertical SaaS,PracticePanther
+smokeball.com,Vertical SaaS,Smokeball
+lawpay.com,Vertical SaaS,LawPay Affinipay
+litify.com,Vertical SaaS,Litify
+filevine.com,Vertical SaaS,Filevine
+zolasuite.com,Vertical SaaS,Zola Suite
+rocketmatter.com,Vertical SaaS,Rocket Matter
+neostella.com,Vertical SaaS,Neostella
+dentrix.com,Vertical SaaS,Dentrix Henry Schein
+eaglesoft.com,Vertical SaaS,Eaglesoft Patterson
+opendental.com,Vertical SaaS,Open Dental
+dentalintel.com,Vertical SaaS,Dental Intel
+adit.com,Vertical SaaS,Adit dental marketing
+weave.com,Vertical SaaS,Weave dental + small biz
+solutionreach.com,Vertical SaaS,SolutionReach
+revenuewell.com,Vertical SaaS,RevenueWell
+lighthouse360.com,Vertical SaaS,Lighthouse 360
