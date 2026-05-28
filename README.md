@@ -10,7 +10,7 @@ node src/run.mjs --issue issue-1 --concurrency 8 --timeout 6000
 
 ## Status — [v0.4.0](https://github.com/mizcausevic-dev/procurement-pulse-engine/releases/tag/v0.4.0) (2026-05-28)
 
-- **Universe:** 895 unique domains across 21 verticals (350 curated AI vendors + 484 Fortune 500 + 28 Forbes AI 50 + 18 hand-picked HealthTech AI + 12 hand-picked K-12 EdTech + reference dogfood). Up from 37 at Issue #1.
+- **Universe:** 1,004 unique domains across 28+ verticals (350 curated AI vendors + 484 Fortune 500 + 28 Forbes AI 50 + 18 hand-picked HealthTech AI + 12 hand-picked K-12 EdTech + 47 .kineticgain.com operator surfaces + 64 hand-picked CISO procurement targets across AI security / GRC / vendor risk / DevSecOps / IAM / OT-IoT / SecOps / MLOps + reference dogfood). Crossed the long-arc 1,000-domain target on 2026-05-28. Up from 37 at Issue #1.
 - **Per-spec discriminator on all 11 Suite paths.** Each spec now requires its canonical `*_version` field (`agent_card_version`, `incident_card_version`, etc.). Closes the Gatsby/SPA-catchall false positive surfaced in Issue #4 — `corporate.charter.com` dropped 82/100 → 0/100; canonical publisher `kineticgain.com` still 100/100.
 - **First verified signing posture.** All 11 kineticgain.com dogfooded `/.well-known/` docs are ed25519-signed against the public key at [`kineticgain.com/.well-known/pulse-signing.json`](https://kineticgain.com/.well-known/pulse-signing.json). Engine probe reports `{ verified: 11, unsigned: 0, invalid: 0 }`.
 - **Engine tests:** 15/15 pass on `main`.
