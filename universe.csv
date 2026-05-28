@@ -901,3 +901,6 @@ rights.kineticgain.com,Media / Telecom,Operator surface (media/publishing operat
 process.kineticgain.com,Workflow / BPM,Operator surface (workflow operator surface — Camunda process governance + timer drift) — v1.0-prod 2026-05-28
 apple.kineticgain.com,Identity/MDM,Operator surface (Apple device trust + MDM operator surface — fleet integrity + remediation posture) — v1.0-prod 2026-05-28
 vendor.kineticgain.com,Vendor Risk,Operator surface (third-party risk + evidence ledger operator surface — review gaps + renewal blockers) — v1.0-prod 2026-05-28
+coverage.kineticgain.com,SecOps,Operator surface (detection coverage + telemetry gaps operator surface) — v1.0-prod 2026-05-28
+field.kineticgain.com,Mobile / Field Ops,Operator surface (Kotlin offline-first field-audit operator surface) — v1.0-prod 2026-05-28
+ledger.kineticgain.com,Legal / Contract,Operator surface (Rust append-only clause-obligation ledger operator surface) — v1.0-prod 2026-05-28
