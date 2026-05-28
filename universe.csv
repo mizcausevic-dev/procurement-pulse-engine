@@ -894,3 +894,6 @@ k12.com,EdTech,Stride K12 · K-12 · Online K-12 schools
 watsonx.kineticgain.com,Reference,IBM watsonx governance bridge (kineticgain.com Suite operator surface)
 claims.kineticgain.com,Reference,Claim Evidence Routing Desk (kineticgain.com Suite operator surface)
 genesys.kineticgain.com,Reference,Genesys CX Disclosure Board (v2 strategy Phase 0 anchor #2)
+editorial.kineticgain.com,Media / Telecom,Operator surface (media/publishing operator surface — editorial standards routing) — v1.0-prod 2026-05-28
+research.kineticgain.com,EdTech,Operator surface (higher-education operator surface — research disclosures + policy routing) — v1.0-prod 2026-05-28
+trials.kineticgain.com,HealthTech,Operator surface (life-sciences operator surface — protocol deviations + CAPA pressure) — v1.0-prod 2026-05-28
