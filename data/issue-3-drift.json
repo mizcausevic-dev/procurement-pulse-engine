@@ -1,0 +1,185 @@
+{
+  "from": "issue-2",
+  "to": "issue-3",
+  "generatedAt": "2026-05-28T00:07:24.458Z",
+  "headline": {
+    "universeTotalDelta": 0,
+    "domainsPublishingAnyDelta": 0,
+    "publicationRateDelta": 0,
+    "avgScoreDelta": 0,
+    "verifiedRateDelta": 0
+  },
+  "byVertical": {
+    "AI Platform": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Automotive / Robotics": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "CX / Support AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Data": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Dev Tools": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "EdTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Enterprise SaaS": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "FinTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Government / Defense": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "HR / Recruiting AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "HealthTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Identity & Security": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Insurance AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Legal AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Marketing / Content AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Observability": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Reference": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Retail / Commerce": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    }
+  },
+  "bySpec": {
+    "aeo": {
+      "label": "aeo",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "agents": {
+      "label": "agents",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "classroomAUP": {
+      "label": "classroomAUP",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "clinicalAI": {
+      "label": "clinicalAI",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "decisions": {
+      "label": "decisions",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "evidence": {
+      "label": "evidence",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "incidents": {
+      "label": "incidents",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "prompts": {
+      "label": "prompts",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "studentAI": {
+      "label": "studentAI",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "toolCards": {
+      "label": "toolCards",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "tutorCards": {
+      "label": "tutorCards",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    }
+  },
+  "domains": {
+    "newlyPublishing": 0,
+    "stoppedPublishing": 0,
+    "changed": 0,
+    "movers": []
+  }
+}
