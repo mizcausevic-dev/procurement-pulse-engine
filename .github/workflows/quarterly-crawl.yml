@@ -1,0 +1,109 @@
+name: Quarterly Pulse crawl
+
+# Pre-registered cadence for the AI Procurement Pulse quarterly issues.
+# See /baseline/ on pulse.kineticgain.com for the methodology.
+#
+# - Aug 15, Nov 15, Feb 15, May 15 at 14:00 UTC (after US-East market open)
+# - Crawls the live universe.csv at run time on the main branch
+# - Writes data/issue-<stem>.json + data/issue-<stem>-raw.json + drift
+# - Commits the aggregate (raw is gitignored)
+# - Manual dispatch supported for between-issue smoke tests
+
+on:
+  schedule:
+    # Aug 15 quarterly — first true delta against the v0.4 baseline
+    - cron: "0 14 15 8 *"
+    # Nov 15 quarterly
+    - cron: "0 14 15 11 *"
+    # Feb 15 quarterly
+    - cron: "0 14 15 2 *"
+    # May 15 quarterly (May 2027+ — May 2026 is already published as Issues #1-#4 + baseline)
+    - cron: "0 14 15 5 *"
+  workflow_dispatch:
+    inputs:
+      issue_stem:
+        description: "Issue stem (e.g. issue-5, smoke, calibration). Output: data/<stem>.json"
+        required: true
+        default: "smoke"
+      concurrency:
+        description: "Probe concurrency"
+        required: false
+        default: "12"
+      diff_against:
+        description: "Compare against this aggregate (e.g. issue-4-v04-full.json). Empty = no drift."
+        required: false
+        default: "issue-4-v04-full.json"
+
+permissions:
+  contents: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Compute issue stem
+        id: stem
+        run: |
+          if [ -n "${{ github.event.inputs.issue_stem }}" ]; then
+            STEM="${{ github.event.inputs.issue_stem }}"
+          else
+            # Scheduled: name the issue by month (e.g. issue-2026-08 for Aug 15 fire)
+            STEM="issue-$(date -u +%Y-%m)"
+          fi
+          echo "stem=$STEM" >> "$GITHUB_OUTPUT"
+          echo "Issue stem: $STEM"
+
+      - name: Run crawl
+        run: |
+          CONC="${{ github.event.inputs.concurrency }}"
+          CONC="${CONC:-12}"
+          node src/run.mjs --issue "${{ steps.stem.outputs.stem }}" --concurrency "$CONC" --timeout 6000
+
+      - name: Run drift (if previous aggregate provided)
+        run: |
+          BASE="${{ github.event.inputs.diff_against }}"
+          BASE="${BASE:-issue-4-v04-full.json}"
+          BASE_PATH="data/$BASE"
+          CURR_PATH="data/${{ steps.stem.outputs.stem }}.json"
+          BASE_RAW="${BASE_PATH%.json}-raw.json"
+          CURR_RAW="${CURR_PATH%.json}-raw.json"
+          if [ -f "$BASE_PATH" ] && [ -f "$CURR_PATH" ]; then
+            if [ -f "$BASE_RAW" ] && [ -f "$CURR_RAW" ]; then
+              node src/drift.mjs --from "$BASE_PATH" --to "$CURR_PATH" --from-raw "$BASE_RAW" --to-raw "$CURR_RAW" || true
+            else
+              node src/drift.mjs --from "$BASE_PATH" --to "$CURR_PATH" || true
+            fi
+          else
+            echo "Skipping drift — missing $BASE_PATH or $CURR_PATH"
+          fi
+
+      - name: Commit aggregate + drift
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/${{ steps.stem.outputs.stem }}.json || true
+          git add data/${{ steps.stem.outputs.stem }}-drift.json || true
+          if git diff --cached --quiet; then
+            echo "Nothing to commit (aggregate unchanged)."
+            exit 0
+          fi
+          git commit -m "pulse: scheduled crawl ${{ steps.stem.outputs.stem }} (universe at $(wc -l < universe.csv | tr -d ' ') rows)
+
+          Triggered by ${{ github.event_name }}. Pre-registered cadence per
+          https://pulse.kineticgain.com/baseline/ — same engine, same universe,
+          no editorial pivots between issues."
+          git push origin HEAD:main
+
+      - name: Summary
+        run: |
+          echo "## Crawl summary" >> $GITHUB_STEP_SUMMARY
+          echo "- Stem: \`${{ steps.stem.outputs.stem }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- Trigger: \`${{ github.event_name }}\`" >> $GITHUB_STEP_SUMMARY
+          if [ -f "data/${{ steps.stem.outputs.stem }}.json" ]; then
+            node -e "const d=require('./data/${{ steps.stem.outputs.stem }}.json'); console.log('- Universe:', d.universe.total, 'domains across', d.universe.verticals, 'verticals'); console.log('- Publishers:', d.headline.domainsPublishingAny, '(' + (d.headline.publicationRate*100).toFixed(3) + '% rate)'); console.log('- Verified docs:', d.signatures.verifiedDocs + '/' + d.signatures.foundDocs);" >> $GITHUB_STEP_SUMMARY
+          fi
