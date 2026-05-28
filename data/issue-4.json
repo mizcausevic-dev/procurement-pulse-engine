@@ -1,0 +1,399 @@
+{
+  "issue": "issue-4",
+  "generatedAt": "2026-05-28T04:47:45.385Z",
+  "methodology": {
+    "probe": "well-known-probe (vendored from well-known-probe-js)",
+    "concurrency": 14,
+    "timeoutMs": 7000,
+    "specsChecked": 11,
+    "signatureCheck": "ed25519 over canonical document hash"
+  },
+  "universe": {
+    "total": 834,
+    "verticals": 21
+  },
+  "headline": {
+    "domainsPublishingAny": 2,
+    "publicationRate": 0.0024,
+    "avgScore": 0.2
+  },
+  "signatures": {
+    "foundDocs": 20,
+    "verifiedDocs": 0,
+    "invalidDocs": 0,
+    "verifiedRate": 0
+  },
+  "byVertical": {
+    "Reference": {
+      "domains": 4,
+      "anyPublished": 1,
+      "publicationRate": 0.25,
+      "avgScore": 25
+    },
+    "AI Platform": {
+      "domains": 40,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "EdTech": {
+      "domains": 42,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "HealthTech": {
+      "domains": 54,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "FinTech": {
+      "domains": 52,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Enterprise SaaS": {
+      "domains": 47,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Data": {
+      "domains": 31,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Observability": {
+      "domains": 12,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Identity & Security": {
+      "domains": 28,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Legal AI": {
+      "domains": 12,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "CX / Support AI": {
+      "domains": 10,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Dev Tools": {
+      "domains": 14,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Marketing / Content AI": {
+      "domains": 12,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "HR / Recruiting AI": {
+      "domains": 8,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Retail / Commerce": {
+      "domains": 22,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Government / Defense": {
+      "domains": 3,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Insurance AI": {
+      "domains": 5,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Automotive / Robotics": {
+      "domains": 19,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Energy": {
+      "domains": 7,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Fortune 500": {
+      "domains": 406,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    },
+    "Media / Telecom": {
+      "domains": 6,
+      "anyPublished": 1,
+      "publicationRate": 0.1667,
+      "avgScore": 13.7
+    }
+  },
+  "bySpec": {
+    "aeo": {
+      "label": "aeo",
+      "publishers": 1,
+      "rate": 0.0012,
+      "verified": 0
+    },
+    "agents": {
+      "label": "agents",
+      "publishers": 2,
+      "rate": 0.0024,
+      "verified": 0
+    },
+    "prompts": {
+      "label": "prompts",
+      "publishers": 2,
+      "rate": 0.0024,
+      "verified": 0
+    },
+    "evidence": {
+      "label": "evidence",
+      "publishers": 2,
+      "rate": 0.0024,
+      "verified": 0
+    },
+    "toolCards": {
+      "label": "toolCards",
+      "publishers": 2,
+      "rate": 0.0024,
+      "verified": 0
+    },
+    "tutorCards": {
+      "label": "tutorCards",
+      "publishers": 2,
+      "rate": 0.0024,
+      "verified": 0
+    },
+    "studentAI": {
+      "label": "studentAI",
+      "publishers": 2,
+      "rate": 0.0024,
+      "verified": 0
+    },
+    "classroomAUP": {
+      "label": "classroomAUP",
+      "publishers": 1,
+      "rate": 0.0012,
+      "verified": 0
+    },
+    "clinicalAI": {
+      "label": "clinicalAI",
+      "publishers": 2,
+      "rate": 0.0024,
+      "verified": 0
+    },
+    "incidents": {
+      "label": "incidents",
+      "publishers": 2,
+      "rate": 0.0024,
+      "verified": 0
+    },
+    "decisions": {
+      "label": "decisions",
+      "publishers": 2,
+      "rate": 0.0024,
+      "verified": 0
+    }
+  },
+  "leaderboard": [
+    {
+      "domain": "kineticgain.com",
+      "vertical": "Reference",
+      "score": 100,
+      "tier": "comprehensive",
+      "published": 11
+    },
+    {
+      "domain": "corporate.charter.com",
+      "vertical": "Media / Telecom",
+      "score": 82,
+      "tier": "strong",
+      "published": 9
+    },
+    {
+      "domain": "suite.kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "clinical.kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "decisions.kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "anthropic.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "openai.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "google.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "microsoft.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "meta.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "mistral.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "cohere.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "perplexity.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "huggingface.co",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "ai21.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "stability.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "runwayml.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "character.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "inflection.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "together.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "fireworks.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "replicate.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "anyscale.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "scale.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "nvidia.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "from": "issue-3",
+  "to": "issue-4",
+  "generatedAt": "2026-05-28T04:49:26.605Z",
+  "headline": {
+    "universeTotalDelta": 484,
+    "domainsPublishingAnyDelta": 1,
+    "publicationRateDelta": -0.0005,
+    "avgScoreDelta": -0.1,
+    "verifiedRateDelta": 0
+  },
+  "byVertical": {
+    "AI Platform": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Automotive / Robotics": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 9
+    },
+    "CX / Support AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Data": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Dev Tools": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "EdTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Energy": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 7
+    },
+    "Enterprise SaaS": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 8
+    },
+    "FinTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 20
+    },
+    "Fortune 500": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 406
+    },
+    "Government / Defense": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "HR / Recruiting AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "HealthTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 13
+    },
+    "Identity & Security": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Insurance AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Legal AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Marketing / Content AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Media / Telecom": {
+      "status": "new",
+      "publicationRateDelta": 0.1667,
+      "avgScoreDelta": 13.7,
+      "domainsDelta": 6
+    },
+    "Observability": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Reference": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Retail / Commerce": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 15
+    }
+  },
+  "bySpec": {
+    "aeo": {
+      "label": "aeo",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "agents": {
+      "label": "agents",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "classroomAUP": {
+      "label": "classroomAUP",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "clinicalAI": {
+      "label": "clinicalAI",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "decisions": {
+      "label": "decisions",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "evidence": {
+      "label": "evidence",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "incidents": {
+      "label": "incidents",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "prompts": {
+      "label": "prompts",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "studentAI": {
+      "label": "studentAI",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "toolCards": {
+      "label": "toolCards",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    },
+    "tutorCards": {
+      "label": "tutorCards",
+      "publishersDelta": 1,
+      "verifiedDelta": 0
+    }
+  },
+  "domains": {
+    "newlyPublishing": 1,
+    "stoppedPublishing": 0,
+    "changed": 1,
+    "movers": [
+      {
+        "domain": "corporate.charter.com",
+        "fromScore": 0,
+        "toScore": 82,
+        "delta": 82,
+        "gainedSpecs": [
+          "toolCards",
+          "tutorCards",
+          "incidents",
+          "clinicalAI",
+          "studentAI",
+          "prompts",
+          "agents",
+          "evidence",
+          "decisions"
+        ],
+        "lostSpecs": [],
+        "verifiedDelta": 0
+      }
+    ]
+  }
+}

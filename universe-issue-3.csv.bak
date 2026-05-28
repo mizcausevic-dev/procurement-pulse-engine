@@ -1,0 +1,351 @@
+domain,vertical,note
+kineticgain.com,Reference,Kinetic Gain apex
+suite.kineticgain.com,Reference,Suite hub
+clinical.kineticgain.com,Reference,Clinical landing
+decisions.kineticgain.com,Reference,Decision Card landing
+anthropic.com,AI Platform,Frontier lab
+openai.com,AI Platform,Frontier lab
+google.com,AI Platform,Gemini
+microsoft.com,AI Platform,Copilot / Azure OpenAI
+meta.com,AI Platform,Llama
+mistral.ai,AI Platform,Frontier lab
+cohere.com,AI Platform,Enterprise LLM
+perplexity.ai,AI Platform,Answer engine
+huggingface.co,AI Platform,Model hub
+ai21.com,AI Platform,Frontier lab
+stability.ai,AI Platform,Image models
+runwayml.com,AI Platform,Video models
+character.ai,AI Platform,Consumer AI
+inflection.ai,AI Platform,Frontier lab
+together.ai,AI Platform,Inference cloud
+fireworks.ai,AI Platform,Inference cloud
+replicate.com,AI Platform,Model hosting
+anyscale.com,AI Platform,Ray / inference
+scale.com,AI Platform,Data labeling
+nvidia.com,AI Platform,AI compute
+ibm.com,AI Platform,watsonx
+x.ai,AI Platform,Grok
+writer.com,AI Platform,Enterprise LLM
+contextual.ai,AI Platform,Enterprise RAG
+you.com,AI Platform,Answer engine
+glean.com,AI Platform,Enterprise search
+groq.com,AI Platform,Inference hardware
+cerebras.net,AI Platform,AI compute
+sambanova.ai,AI Platform,AI compute
+lambdalabs.com,AI Platform,GPU cloud
+coreweave.com,AI Platform,GPU cloud
+modal.com,AI Platform,Serverless AI
+baseten.co,AI Platform,Model serving
+midjourney.com,AI Platform,Image models
+elevenlabs.io,AI Platform,Voice AI
+assemblyai.com,AI Platform,Speech AI
+deepgram.com,AI Platform,Speech AI
+lumalabs.ai,AI Platform,Video models
+hume.ai,AI Platform,Emotion AI
+poe.com,AI Platform,AI aggregator
+khanacademy.org,EdTech,AI tutoring (Khanmigo)
+duolingo.com,EdTech,AI language tutor
+coursera.org,EdTech,Course platform
+chegg.com,EdTech,Study AI
+quizlet.com,EdTech,Study AI
+instructure.com,EdTech,Canvas LMS
+powerschool.com,EdTech,K-12 SIS
+udemy.com,EdTech,Course marketplace
+edx.org,EdTech,Course platform
+brainly.com,EdTech,Homework AI
+turnitin.com,EdTech,Integrity / AI detection
+gradescope.com,EdTech,AI grading
+magicschool.ai,EdTech,K-12 teacher AI
+schoolai.com,EdTech,K-12 classroom AI
+securly.com,EdTech,K-12 safety AI
+kahoot.com,EdTech,Game-based learning
+nearpod.com,EdTech,K-12 engagement
+newsela.com,EdTech,K-12 content
+ixl.com,EdTech,K-12 practice
+curriculumassociates.com,EdTech,i-Ready K-12
+renaissance.com,EdTech,K-12 assessment
+classdojo.com,EdTech,K-12 comms
+edmentum.com,EdTech,K-12 courseware
+clever.com,EdTech,K-12 SSO
+gaggle.net,EdTech,K-12 safety
+goguardian.com,EdTech,K-12 safety
+lightspeedsystems.com,EdTech,K-12 filtering
+prodigygame.com,EdTech,K-12 math game
+carnegielearning.com,EdTech,K-12 math AI
+byjus.com,EdTech,EdTech
+outschool.com,EdTech,K-12 classes
+varsitytutors.com,EdTech,Tutoring
+pearson.com,EdTech,Publisher
+mheducation.com,EdTech,Publisher
+savvas.com,EdTech,K-12 publisher
+hmhco.com,EdTech,K-12 publisher
+cengage.com,EdTech,Higher-ed publisher
+2u.com,EdTech,Online programs
+udacity.com,EdTech,Tech courses
+pluralsight.com,EdTech,Tech skills
+datacamp.com,EdTech,Data skills
+codecademy.com,EdTech,Coding skills
+tempus.com,HealthTech,Precision medicine AI
+pathai.com,HealthTech,Pathology AI
+viz.ai,HealthTech,Care coordination AI
+abridge.com,HealthTech,Clinical documentation AI
+nuance.com,HealthTech,Dragon / DAX
+aidoc.com,HealthTech,Radiology AI
+paige.ai,HealthTech,Pathology AI
+cleerly.com,HealthTech,Cardiac imaging AI
+heartflow.com,HealthTech,Cardiac AI
+butterflynetwork.com,HealthTech,Handheld ultrasound AI
+freenome.com,HealthTech,Early cancer detection
+recursion.com,HealthTech,AI drug discovery
+insitro.com,HealthTech,AI drug discovery
+owkin.com,HealthTech,AI biology
+benevolent.com,HealthTech,AI drug discovery
+exscientia.ai,HealthTech,AI drug discovery
+suki.ai,HealthTech,Clinical voice AI
+nabla.com,HealthTech,Clinical documentation AI
+ambiencehealthcare.com,HealthTech,Clinical documentation AI
+deepscribe.ai,HealthTech,Clinical documentation AI
+regard.com,HealthTech,Clinical decision AI
+hippocraticai.com,HealthTech,Healthcare LLM
+glass.health,HealthTech,Clinical reasoning AI
+khealth.com,HealthTech,Symptom AI
+woebothealth.com,HealthTech,Mental health AI
+coherehealth.com,HealthTech,Utilization AI
+notablehealth.com,HealthTech,Healthcare automation
+qventus.com,HealthTech,Hospital ops AI
+ada.com,HealthTech,Symptom assessment AI
+infermedica.com,HealthTech,Triage AI
+augmedix.com,HealthTech,Clinical documentation AI
+commure.com,HealthTech,Healthcare platform
+innovaccer.com,HealthTech,Health data platform
+komodohealth.com,HealthTech,Healthcare data
+healthverity.com,HealthTech,Healthcare data
+truveta.com,HealthTech,Healthcare data
+gehealthcare.com,HealthTech,Medical imaging AI
+philips.com,HealthTech,Medical AI
+medtronic.com,HealthTech,Medical devices AI
+iqvia.com,HealthTech,Life sciences analytics
+veeva.com,HealthTech,Life sciences SaaS
+stripe.com,FinTech,Payments
+plaid.com,FinTech,Bank data
+brex.com,FinTech,Corporate cards
+ramp.com,FinTech,Spend mgmt
+mercury.com,FinTech,Banking
+block.xyz,FinTech,Square / Cash App
+paypal.com,FinTech,Payments
+adyen.com,FinTech,Payments
+marqeta.com,FinTech,Card issuing
+sofi.com,FinTech,Consumer finance
+robinhood.com,FinTech,Brokerage
+chime.com,FinTech,Neobank
+affirm.com,FinTech,BNPL
+klarna.com,FinTech,BNPL
+wise.com,FinTech,Cross-border
+revolut.com,FinTech,Neobank
+upstart.com,FinTech,AI lending
+bill.com,FinTech,AP/AR automation
+gusto.com,FinTech,Payroll
+deel.com,FinTech,Global payroll
+rippling.com,FinTech,HR + finance
+addepar.com,FinTech,Wealth platform
+alloy.com,FinTech,Identity / fraud
+moderntreasury.com,FinTech,Payment ops
+highradius.com,FinTech,AR automation AI
+zest.ai,FinTech,AI underwriting
+feedzai.com,FinTech,Fraud AI
+socure.com,FinTech,Identity verification
+mx.com,FinTech,Financial data
+fiserv.com,FinTech,FinTech infra
+intuit.com,FinTech,QuickBooks / AI
+coinbase.com,FinTech,Crypto
+salesforce.com,Enterprise SaaS,Einstein
+servicenow.com,Enterprise SaaS,Now Assist
+workday.com,Enterprise SaaS,HCM AI
+hubspot.com,Enterprise SaaS,Marketing AI
+sap.com,Enterprise SaaS,Joule
+oracle.com,Enterprise SaaS,Fusion AI
+adobe.com,Enterprise SaaS,Firefly / Sensei
+atlassian.com,Enterprise SaaS,Rovo
+zendesk.com,Enterprise SaaS,Support AI
+freshworks.com,Enterprise SaaS,Freddy AI
+monday.com,Enterprise SaaS,Work OS AI
+asana.com,Enterprise SaaS,Work AI
+notion.so,Enterprise SaaS,Notion AI
+airtable.com,Enterprise SaaS,AI app builder
+box.com,Enterprise SaaS,Box AI
+dropbox.com,Enterprise SaaS,Dash AI
+docusign.com,Enterprise SaaS,Agreement AI
+intercom.com,Enterprise SaaS,Fin AI agent
+twilio.com,Enterprise SaaS,CustomerAI
+zoominfo.com,Enterprise SaaS,GTM data AI
+gong.io,Enterprise SaaS,Revenue AI
+clari.com,Enterprise SaaS,Revenue AI
+outreach.io,Enterprise SaaS,Sales AI
+salesloft.com,Enterprise SaaS,Sales AI
+pega.com,Enterprise SaaS,Process AI
+uipath.com,Enterprise SaaS,Automation AI
+automationanywhere.com,Enterprise SaaS,Automation AI
+celonis.com,Enterprise SaaS,Process mining
+sprinklr.com,Enterprise SaaS,CX AI
+qualtrics.com,Enterprise SaaS,Experience AI
+smartsheet.com,Enterprise SaaS,Work mgmt
+coupa.com,Enterprise SaaS,Spend AI
+anaplan.com,Enterprise SaaS,Planning AI
+gainsight.com,Enterprise SaaS,Customer success AI
+miro.com,Enterprise SaaS,Whiteboard AI
+figma.com,Enterprise SaaS,Design AI
+calendly.com,Enterprise SaaS,Scheduling
+slack.com,Enterprise SaaS,Slack AI
+zoom.us,Enterprise SaaS,Zoom AI
+snowflake.com,Data,Cortex
+databricks.com,Data,Mosaic AI
+confluent.io,Data,Streaming
+fivetran.com,Data,ELT
+getdbt.com,Data,Transformation
+tableau.com,Data,BI
+alteryx.com,Data,Analytics AI
+sigmacomputing.com,Data,BI
+montecarlodata.com,Data,Data observability
+atlan.com,Data,Data catalog
+collibra.com,Data,Data governance
+alation.com,Data,Data catalog
+starburst.io,Data,Query engine
+dremio.com,Data,Lakehouse
+clickhouse.com,Data,OLAP DB
+mongodb.com,Data,Document DB + AI
+cockroachlabs.com,Data,Distributed SQL
+planetscale.com,Data,MySQL platform
+neo4j.com,Data,Graph DB
+pinecone.io,Data,Vector DB
+weaviate.io,Data,Vector DB
+qdrant.tech,Data,Vector DB
+trychroma.com,Data,Vector DB
+zilliz.com,Data,Vector DB (Milvus)
+redis.io,Data,In-memory DB
+elastic.co,Data,Search AI
+teradata.com,Data,Analytics
+cloudera.com,Data,Data platform
+dataiku.com,Data,Data science AI
+h2o.ai,Data,AutoML
+datarobot.com,Data,AutoML
+datadoghq.com,Observability,Bits AI
+newrelic.com,Observability,Observability AI
+dynatrace.com,Observability,Davis AI
+splunk.com,Observability,Splunk AI
+grafana.com,Observability,Observability
+honeycomb.io,Observability,Query AI
+sentry.io,Observability,Error monitoring
+sumologic.com,Observability,Log AI
+chronosphere.io,Observability,Observability
+logz.io,Observability,Observability
+cribl.io,Observability,Telemetry pipeline
+coralogix.com,Observability,Observability AI
+okta.com,Identity & Security,Identity AI
+cyberark.com,Identity & Security,Privileged access
+pingidentity.com,Identity & Security,Identity
+sailpoint.com,Identity & Security,Identity governance
+beyondtrust.com,Identity & Security,Privileged access
+crowdstrike.com,Identity & Security,Charlotte AI
+sentinelone.com,Identity & Security,Purple AI
+paloaltonetworks.com,Identity & Security,Precision AI
+zscaler.com,Identity & Security,Zero trust AI
+fortinet.com,Identity & Security,Security AI
+cloudflare.com,Identity & Security,Edge AI
+wiz.io,Identity & Security,Cloud security
+snyk.io,Identity & Security,DevSecOps AI
+lacework.com,Identity & Security,Cloud security AI
+orca.security,Identity & Security,Cloud security
+abnormalsecurity.com,Identity & Security,Email security AI
+darktrace.com,Identity & Security,Network AI
+vectra.ai,Identity & Security,Threat detection AI
+exabeam.com,Identity & Security,SIEM AI
+securonix.com,Identity & Security,SIEM AI
+tanium.com,Identity & Security,Endpoint
+rapid7.com,Identity & Security,Security AI
+tenable.com,Identity & Security,Exposure mgmt
+qualys.com,Identity & Security,Vuln mgmt
+hashicorp.com,Identity & Security,Infra security
+1password.com,Identity & Security,Secrets
+jumpcloud.com,Identity & Security,Directory
+duosecurity.com,Identity & Security,MFA
+harvey.ai,Legal AI,Legal LLM
+casetext.com,Legal AI,Legal research AI
+spellbook.legal,Legal AI,Contract AI
+robinai.com,Legal AI,Contract AI
+luminance.com,Legal AI,Legal AI
+ironcladapp.com,Legal AI,Contract lifecycle AI
+lexisnexis.com,Legal AI,Legal research
+thomsonreuters.com,Legal AI,CoCounsel
+clio.com,Legal AI,Legal practice AI
+everlaw.com,Legal AI,Ediscovery AI
+relativity.com,Legal AI,Ediscovery AI
+csdisco.com,Legal AI,Legal AI
+forethought.ai,CX / Support AI,Support AI
+cresta.com,CX / Support AI,Contact center AI
+decagon.ai,CX / Support AI,Support agents
+sierra.ai,CX / Support AI,CX agents
+kustomer.com,CX / Support AI,CX platform
+gladly.com,CX / Support AI,CX platform
+dialpad.com,CX / Support AI,Voice AI
+talkdesk.com,CX / Support AI,Contact center AI
+five9.com,CX / Support AI,Contact center AI
+nice.com,CX / Support AI,CX AI
+github.com,Dev Tools,Copilot
+gitlab.com,Dev Tools,Duo
+jetbrains.com,Dev Tools,AI Assistant
+sourcegraph.com,Dev Tools,Cody
+tabnine.com,Dev Tools,Code AI
+replit.com,Dev Tools,Agent / Ghostwriter
+vercel.com,Dev Tools,v0 AI
+netlify.com,Dev Tools,Deploy AI
+render.com,Dev Tools,Cloud platform
+supabase.com,Dev Tools,Backend AI
+postman.com,Dev Tools,API AI
+cursor.com,Dev Tools,AI editor
+codeium.com,Dev Tools,Windsurf code AI
+warp.dev,Dev Tools,AI terminal
+jasper.ai,Marketing / Content AI,Marketing AI
+copy.ai,Marketing / Content AI,Copywriting AI
+writesonic.com,Marketing / Content AI,Content AI
+synthesia.io,Marketing / Content AI,AI video
+descript.com,Marketing / Content AI,AI media editing
+canva.com,Marketing / Content AI,Magic Studio
+grammarly.com,Marketing / Content AI,Writing AI
+surferseo.com,Marketing / Content AI,SEO AI
+semrush.com,Marketing / Content AI,Marketing AI
+ahrefs.com,Marketing / Content AI,SEO
+hootsuite.com,Marketing / Content AI,Social AI
+mailchimp.com,Marketing / Content AI,Marketing AI
+greenhouse.io,HR / Recruiting AI,ATS
+lever.co,HR / Recruiting AI,ATS
+hirevue.com,HR / Recruiting AI,Video interview AI
+eightfold.ai,HR / Recruiting AI,Talent AI
+beamery.com,HR / Recruiting AI,Talent AI
+paradox.ai,HR / Recruiting AI,Recruiting AI
+gem.com,HR / Recruiting AI,Recruiting CRM
+ashbyhq.com,HR / Recruiting AI,ATS AI
+shopify.com,Retail / Commerce,Sidekick AI
+amazon.com,Retail / Commerce,Rufus / Bedrock
+instacart.com,Retail / Commerce,Grocery AI
+doordash.com,Retail / Commerce,Delivery AI
+wayfair.com,Retail / Commerce,Retail AI
+etsy.com,Retail / Commerce,Marketplace AI
+ebay.com,Retail / Commerce,Marketplace AI
+palantir.com,Government / Defense,AIP
+anduril.com,Government / Defense,Lattice AI
+shield.ai,Government / Defense,Autonomy AI
+lemonade.com,Insurance AI,AI insurance
+root.com,Insurance AI,Telematics AI
+hippo.com,Insurance AI,Home insurance AI
+tractable.ai,Insurance AI,Claims AI
+shift-technology.com,Insurance AI,Insurance fraud AI
+tesla.com,Automotive / Robotics,FSD / Autopilot
+waymo.com,Automotive / Robotics,Autonomous driving
+getcruise.com,Automotive / Robotics,Autonomous driving
+aurora.tech,Automotive / Robotics,Autonomous trucking
+nuro.ai,Automotive / Robotics,Delivery robots
+zoox.com,Automotive / Robotics,Robotaxi
+figure.ai,Automotive / Robotics,Humanoid robots
+bostondynamics.com,Automotive / Robotics,Robotics
+covariant.ai,Automotive / Robotics,Robotics AI
+skydio.com,Automotive / Robotics,Autonomous drones

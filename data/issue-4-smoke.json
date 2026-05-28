@@ -1,0 +1,180 @@
+{
+  "issue": "issue-4-smoke",
+  "generatedAt": "2026-05-28T04:45:06.632Z",
+  "methodology": {
+    "probe": "well-known-probe (vendored from well-known-probe-js)",
+    "concurrency": 4,
+    "timeoutMs": 6000,
+    "specsChecked": 11,
+    "signatureCheck": "ed25519 over canonical document hash"
+  },
+  "universe": {
+    "total": 10,
+    "verticals": 2
+  },
+  "headline": {
+    "domainsPublishingAny": 1,
+    "publicationRate": 0.1,
+    "avgScore": 10
+  },
+  "signatures": {
+    "foundDocs": 11,
+    "verifiedDocs": 0,
+    "invalidDocs": 0,
+    "verifiedRate": 0
+  },
+  "byVertical": {
+    "Reference": {
+      "domains": 4,
+      "anyPublished": 1,
+      "publicationRate": 0.25,
+      "avgScore": 25
+    },
+    "AI Platform": {
+      "domains": 6,
+      "anyPublished": 0,
+      "publicationRate": 0,
+      "avgScore": 0
+    }
+  },
+  "bySpec": {
+    "aeo": {
+      "label": "aeo",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "agents": {
+      "label": "agents",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "prompts": {
+      "label": "prompts",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "evidence": {
+      "label": "evidence",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "toolCards": {
+      "label": "toolCards",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "tutorCards": {
+      "label": "tutorCards",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "studentAI": {
+      "label": "studentAI",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "classroomAUP": {
+      "label": "classroomAUP",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "clinicalAI": {
+      "label": "clinicalAI",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "incidents": {
+      "label": "incidents",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    },
+    "decisions": {
+      "label": "decisions",
+      "publishers": 1,
+      "rate": 0.1,
+      "verified": 0
+    }
+  },
+  "leaderboard": [
+    {
+      "domain": "kineticgain.com",
+      "vertical": "Reference",
+      "score": 100,
+      "tier": "comprehensive",
+      "published": 11
+    },
+    {
+      "domain": "suite.kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "clinical.kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "decisions.kineticgain.com",
+      "vertical": "Reference",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "anthropic.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "openai.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "google.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "microsoft.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "meta.com",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    },
+    {
+      "domain": "mistral.ai",
+      "vertical": "AI Platform",
+      "score": 0,
+      "tier": "none",
+      "published": 0
+    }
+  ]
+}
