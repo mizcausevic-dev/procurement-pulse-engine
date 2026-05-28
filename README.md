@@ -8,6 +8,15 @@ node src/run.mjs --issue issue-1 --concurrency 8 --timeout 6000
 # → data/issue-1-raw.json  (per-domain ProbeResults)
 ```
 
+## Status — [v0.4.0](https://github.com/mizcausevic-dev/procurement-pulse-engine/releases/tag/v0.4.0) (2026-05-28)
+
+- **Universe:** 895 unique domains across 21 verticals (350 curated AI vendors + 484 Fortune 500 + 28 Forbes AI 50 + 18 hand-picked HealthTech AI + 12 hand-picked K-12 EdTech + reference dogfood). Up from 37 at Issue #1.
+- **Per-spec discriminator on all 11 Suite paths.** Each spec now requires its canonical `*_version` field (`agent_card_version`, `incident_card_version`, etc.). Closes the Gatsby/SPA-catchall false positive surfaced in Issue #4 — `corporate.charter.com` dropped 82/100 → 0/100; canonical publisher `kineticgain.com` still 100/100.
+- **First verified signing posture.** All 11 kineticgain.com dogfooded `/.well-known/` docs are ed25519-signed against the public key at [`kineticgain.com/.well-known/pulse-signing.json`](https://kineticgain.com/.well-known/pulse-signing.json). Engine probe reports `{ verified: 11, unsigned: 0, invalid: 0 }`.
+- **Engine tests:** 15/15 pass on `main`.
+
+> The sections below preserve the Issue #1 baseline narrative and the journey through Issues #2–#4. Issue #5 (the first true quarterly delta, August 2026) inherits the v0.4 discriminator + signing posture by default.
+
 ## What it does
 
 1. Reads [`universe.csv`](universe.csv) — `domain,vertical,note`, the set of vendors measured this issue.
