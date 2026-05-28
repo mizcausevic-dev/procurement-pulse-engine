@@ -19,16 +19,16 @@ import { verifyDocument } from "./signature.mjs";
  */
 export const SUITE_PATHS = Object.freeze({
   aeo:          { url: "/.well-known/aeo.json",                  discriminator: "aeo_version" },
-  agents:       { url: "/.well-known/agents/index.json",         discriminator: null },
-  prompts:      { url: "/.well-known/prompts/index.json",        discriminator: null },
-  evidence:     { url: "/.well-known/evidence/index.json",       discriminator: null },
-  toolCards:    { url: "/.well-known/tool-cards/index.json",     discriminator: null },
-  tutorCards:   { url: "/.well-known/tutor-cards/index.json",    discriminator: null },
-  studentAI:    { url: "/.well-known/student-ai/index.json",     discriminator: null },
+  agents:       { url: "/.well-known/agents/index.json",         discriminator: "agent_card_version" },
+  prompts:      { url: "/.well-known/prompts/index.json",        discriminator: "provenance_version" },
+  evidence:     { url: "/.well-known/evidence/index.json",       discriminator: "evidence_version" },
+  toolCards:    { url: "/.well-known/tool-cards/index.json",     discriminator: "tool_card_version" },
+  tutorCards:   { url: "/.well-known/tutor-cards/index.json",    discriminator: "tutor_card_version" },
+  studentAI:    { url: "/.well-known/student-ai/index.json",     discriminator: "disclosure_version" },
   classroomAUP: { url: "/.well-known/aup.json",                  discriminator: "aup_version" },
-  clinicalAI:   { url: "/.well-known/clinical-ai/index.json",    discriminator: null },
-  incidents:    { url: "/.well-known/incidents/index.json",      discriminator: null },
-  decisions:    { url: "/.well-known/decisions/index.json",      discriminator: null },
+  clinicalAI:   { url: "/.well-known/clinical-ai/index.json",    discriminator: "clinical_ai_card_version" },
+  incidents:    { url: "/.well-known/incidents/index.json",      discriminator: "incident_card_version" },
+  decisions:    { url: "/.well-known/decisions/index.json",      discriminator: "decision_card_version" },
 });
 
 const SPEC_COUNT = Object.keys(SUITE_PATHS).length;
