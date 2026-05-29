@@ -82,12 +82,26 @@ jobs:
             echo "Skipping drift — missing $BASE_PATH or $CURR_PATH"
           fi
 
-      - name: Commit aggregate + drift
+      - name: Render markdown issue draft
+        run: |
+          BASE="${{ github.event.inputs.diff_against }}"
+          BASE="${BASE:-issue-4-v04-full.json}"
+          BASE_STEM="${BASE%.json}"
+          mkdir -p docs/issues
+          node src/summarize.mjs \
+            --issue "${{ steps.stem.outputs.stem }}" \
+            --baseline "$BASE_STEM" \
+            --leaderboard-limit 10 \
+            --out "docs/issues/${{ steps.stem.outputs.stem }}.md" \
+            || echo "summarize step soft-failed — JSON artifacts still committed"
+
+      - name: Commit aggregate + drift + issue draft
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/${{ steps.stem.outputs.stem }}.json || true
           git add data/${{ steps.stem.outputs.stem }}-drift.json || true
+          git add docs/issues/${{ steps.stem.outputs.stem }}.md || true
           if git diff --cached --quiet; then
             echo "Nothing to commit (aggregate unchanged)."
             exit 0

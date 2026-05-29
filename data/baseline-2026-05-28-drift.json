@@ -1,0 +1,299 @@
+{
+  "from": "issue-4-v04-full",
+  "to": "baseline-2026-05-28",
+  "generatedAt": "2026-05-29T00:04:02.769Z",
+  "headline": {
+    "universeTotalDelta": 108,
+    "domainsPublishingAnyDelta": 0,
+    "publicationRateDelta": -0.0001,
+    "avgScoreDelta": 0,
+    "verifiedRateDelta": 0
+  },
+  "byVertical": {
+    "AI Platform": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "AI Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 10
+    },
+    "Asset Management": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Automotive / Robotics": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "CX / Support AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Cloud Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 3
+    },
+    "Data": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Dev Tools": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "DevSecOps": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 6
+    },
+    "EdTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Email Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "Energy": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Enterprise SaaS": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "FinTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Fortune 500": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "GRC / Compliance": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 7
+    },
+    "Government / Defense": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "HR / Recruiting AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "HealthTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Identity & Security": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 11
+    },
+    "Identity/MDM": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Insurance AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Legal / Contract": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Legal / Disclosure": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Legal AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "MLOps / AI Infra": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 6
+    },
+    "Marketing / Content AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Media / Telecom": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Mobile / Field Ops": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "OT / IoT Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 4
+    },
+    "Observability": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Reference": {
+      "status": "changed",
+      "publicationRateDelta": -0.1185,
+      "avgScoreDelta": -11.9,
+      "domainsDelta": 34
+    },
+    "Retail / Commerce": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "SecOps": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 7
+    },
+    "Vendor Risk": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 7
+    },
+    "Workflow / BPM": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Workflow / Integration": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Workforce / Internal Comm": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    }
+  },
+  "bySpec": {
+    "aeo": {
+      "label": "aeo",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "agents": {
+      "label": "agents",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "classroomAUP": {
+      "label": "classroomAUP",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "clinicalAI": {
+      "label": "clinicalAI",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "decisions": {
+      "label": "decisions",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "evidence": {
+      "label": "evidence",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "incidents": {
+      "label": "incidents",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "prompts": {
+      "label": "prompts",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "studentAI": {
+      "label": "studentAI",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "toolCards": {
+      "label": "toolCards",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "tutorCards": {
+      "label": "tutorCards",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    }
+  }
+}

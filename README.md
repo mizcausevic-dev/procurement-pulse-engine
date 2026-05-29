@@ -94,6 +94,16 @@ By default the embedded `public_key` is used (tamper-evidence). Pass `--verify-k
 
 `driftAggregate(prev, curr)` diffs two committed issue datasets (headline / per-vertical / per-spec / signature-rate deltas, and flags `new` / `dropped` verticals). `driftDomains(prevRaw, currRaw)` diffs the per-domain raw arrays to find movers — newly publishing, stopped, score and per-spec changes. The CLI writes `data/<to>-drift.json` and prints a human summary.
 
+## Issue markdown (`src/summarize.mjs`)
+
+`summarize.mjs` renders a Pulse-issue markdown body by filling token placeholders in [`docs/issues/ISSUE_TEMPLATE.md`](docs/issues/ISSUE_TEMPLATE.md) with the issue's aggregate JSON and (optional) drift JSON. Output goes to `docs/issues/<stem>.md`, ready to paste into a GitHub Issue or publish via pulse.kineticgain.com.
+
+```bash
+node src/summarize.mjs --issue issue-2026-08 --baseline issue-4-v04-full --issue-number 5
+```
+
+The quarterly-crawl workflow invokes the summarizer automatically after drift, so the scheduled August / November / February / May firings produce **JSON + ready-to-publish markdown** in a single commit. The staged preview at [`docs/issues/issue-5-staged-draft.md`](docs/issues/issue-5-staged-draft.md) shows what Issue #5 will look like — generated from the 2026-05-28 snapshot vs the locked v0.4 baseline as a pipeline dry-run.
+
 ## Crawl etiquette
 
 GET-only requests to public, designed-to-be-fetched `/.well-known/` paths. Bounded concurrency, per-request timeout, `redirect: follow`. No authentication, no headless browser, no scraping of page content. The universe is published alongside each issue so the run is reproducible by anyone.
