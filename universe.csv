@@ -1435,3 +1435,11 @@ robots.kineticgain.com,robot-fleet-exception-board,Operations operator
 sensor.kineticgain.com,sensor-health-drift-monitor,IoT operator
 tenant.kineticgain.com,tenant-maintenance-escalation-console,PropTech operator
 ,,
+assay.kineticgain.com,assay-release-readiness-board,HealthTech operator (GxP-territory)
+capa.kineticgain.com,batch-deviation-capa-ledger,HealthTech operator (GxP-territory)
+narrative.kineticgain.com,clinical-event-narrative-review-board,HealthTech operator (clinical)
+diagnostics.kineticgain.com,diagnostic-qc-evidence-router,HealthTech operator (GxP-territory)
+gxp.kineticgain.com,gxp-change-control-board,HealthTech operator (GxP-territory)
+instruments.kineticgain.com,lab-instrument-change-audit,HealthTech operator (GxP-territory)
+safety.kineticgain.com,pharmacovigilance-signal-router,HealthTech operator (PV/safety)
+specimen.kineticgain.com,specimen-chain-of-custody-console,HealthTech operator (clinical)
