@@ -1450,3 +1450,8 @@ donors.kineticgain.com,donor-cohort-risk-lab-r,R notebook (Nonprofit analytics)
 outcomes.kineticgain.com,program-outcome-proof-ledger,Python operator (Nonprofit/Grant)
 treasury.kineticgain.com,treasury-liquidity-signal-lab,Julia operator (FinTech)
 yield.kineticgain.com,yield-forecast-studio,Julia operator (Operations/Forecasting)
+proofgap.kineticgain.com,Reference,KG Sales Enablement - vendor proof-gap monitor
+trust.kineticgain.com,Reference,KG Sales Enablement - trust-center evidence room
+questionnaire.kineticgain.com,Reference,KG Sales Enablement - security questionnaire studio
+rfp.kineticgain.com,Reference,KG Sales Enablement - RFP response assembler
+identity.kineticgain.com,Reference,KG Growth Ops - identity-risk evidence ledger
