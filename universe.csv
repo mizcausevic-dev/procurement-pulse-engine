@@ -1419,3 +1419,19 @@ reality.kineticgain.com,Claims vs Reality Engine,Operator Diagnostics
 members.kineticgain.com,WordPress Member Journey Consent Kit,Growth Ops
 revenue.kineticgain.com,Revenue Infrastructure Scorecard,Operator Diagnostics
 replace.kineticgain.com,Vendor Replacement Intelligence,Operator Diagnostics
+certs.kineticgain.com,access-certification-api-dotnet,Microsoft ecosystem
+backup.kineticgain.com,backup-restore-drill-runner,Standard operator
+accesslog.kineticgain.com,building-access-audit-ledger,Standard operator
+stewardship.kineticgain.com,donor-stewardship-ops-console,Vertical operator (nonprofit/donor)
+guest.kineticgain.com,entra-guest-access-governor,Microsoft ecosystem
+grants.kineticgain.com,grant-compliance-evidence-desk,Vertical operator (nonprofit/grant)
+runbook.kineticgain.com,incident-handoff-runbook-kit,Standard operator
+protect.kineticgain.com,intune-app-protection-lab,Microsoft ecosystem
+kyc.kineticgain.com,kyc-refresh-case-router,FinTech/AML operator
+merchant.kineticgain.com,merchant-risk-review-console,FinTech/PSP operator
+payments.kineticgain.com,payment-reconciliation-exception-desk,FinTech operator
+powerbi.kineticgain.com,powerbi-refresh-reliability-hub,Microsoft ecosystem
+robots.kineticgain.com,robot-fleet-exception-board,Operations operator
+sensor.kineticgain.com,sensor-health-drift-monitor,IoT operator
+tenant.kineticgain.com,tenant-maintenance-escalation-console,PropTech operator
+,,
