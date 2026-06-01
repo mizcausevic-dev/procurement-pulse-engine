@@ -6,6 +6,13 @@ on:
   pull_request:
     branches: [main]
 
+# Least-privilege: read-only test + lint runs. GITHUB_TOKEN gets no
+# write to anything. The scheduled crawl that DOES need contents:write
+# (to commit aggregates back) lives in quarterly-crawl.yml with its own
+# scoped permissions block.
+permissions:
+  contents: read
+
 jobs:
   test:
     name: node ${{ matrix.node }}
