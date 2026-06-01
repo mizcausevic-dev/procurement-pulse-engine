@@ -87,12 +87,27 @@ jobs:
           BASE="${{ github.event.inputs.diff_against }}"
           BASE="${BASE:-issue-4-v04-full.json}"
           BASE_STEM="${BASE%.json}"
+          # Issue-number heuristic: scheduled cron runs land on issue-YYYY-MM
+          # stems. Issues #1-#4 are published; #5 is the first scheduled cron
+          # (Aug 2026). Dispatched runs (smoke/dry-*) leave the number blank
+          # so the header reads "Issue —" — a clear signal it's not a real issue.
+          STEM="${{ steps.stem.outputs.stem }}"
+          ISSUE_NUMBER=""
+          case "$STEM" in
+            issue-2026-08) ISSUE_NUMBER=5  ;;
+            issue-2026-11) ISSUE_NUMBER=6  ;;
+            issue-2027-02) ISSUE_NUMBER=7  ;;
+            issue-2027-05) ISSUE_NUMBER=8  ;;
+            issue-2027-08) ISSUE_NUMBER=9  ;;
+            issue-2027-11) ISSUE_NUMBER=10 ;;
+          esac
           mkdir -p docs/issues
           node src/summarize.mjs \
-            --issue "${{ steps.stem.outputs.stem }}" \
+            --issue "$STEM" \
             --baseline "$BASE_STEM" \
+            ${ISSUE_NUMBER:+--issue-number "$ISSUE_NUMBER"} \
             --leaderboard-limit 10 \
-            --out "docs/issues/${{ steps.stem.outputs.stem }}.md" \
+            --out "docs/issues/$STEM.md" \
             || echo "summarize step soft-failed — JSON artifacts still committed"
 
       - name: Commit aggregate + drift + issue draft
