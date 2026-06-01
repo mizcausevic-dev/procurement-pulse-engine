@@ -1,0 +1,575 @@
+{
+  "from": "issue-4-v04-full",
+  "to": "dry-2026-06-01-postfix",
+  "generatedAt": "2026-06-01T02:53:09.437Z",
+  "headline": {
+    "universeTotalDelta": 613,
+    "domainsPublishingAnyDelta": 0,
+    "publicationRateDelta": -0.0004,
+    "avgScoreDelta": 0,
+    "verifiedRateDelta": 0
+  },
+  "byVertical": {
+    "AI Agent Platform": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 36
+    },
+    "AI Coding & Developer AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 30
+    },
+    "AI Data Labeling": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 32
+    },
+    "AI Platform": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "AI Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 10
+    },
+    "Asset Management": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Automotive / Robotics": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "CX / Support AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Claims vs Reality Engine": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Cloud Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 8
+    },
+    "Customer Data Platform": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 25
+    },
+    "Customer Service Platform": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 30
+    },
+    "Data": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Dev Tools": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "DevSecOps": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 12
+    },
+    "Document & eSignature": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 24
+    },
+    "EdTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Email Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 6
+    },
+    "Energy": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Enterprise SaaS": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "FinTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Fortune 500": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "GRC / Compliance": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 13
+    },
+    "Government / Defense": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 5
+    },
+    "Growth Ops": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "HR / Recruiting AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "HealthTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Identity & Security": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 11
+    },
+    "Identity/MDM": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Insurance AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Legal / Contract": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Legal / Disclosure": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Legal AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "MLOps / AI Infra": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 13
+    },
+    "MarTech": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 63
+    },
+    "Marketing / Content AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Media / Telecom": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Mid-Market HR/Payroll": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 48
+    },
+    "Mobile / Field Ops": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "OT / IoT Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 4
+    },
+    "Observability": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 5
+    },
+    "Reference": {
+      "status": "changed",
+      "publicationRateDelta": -0.1233,
+      "avgScoreDelta": -12.3,
+      "domainsDelta": 44
+    },
+    "Retail / Commerce": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Revenue Infrastructure Scorecard": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "SecOps": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 12
+    },
+    "Uncategorized": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Vendor Replacement Intelligence": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Vendor Risk": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 15
+    },
+    "Vertical SaaS": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 83
+    },
+    "WordPress Member Journey Consent Kit": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Workflow / BPM": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Workflow / Integration": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Workforce / Internal Comm": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "access-certification-api-dotnet": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "assay-release-readiness-board": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "backup-restore-drill-runner": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "batch-deviation-capa-ledger": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "building-access-audit-ledger": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "campaign-appeal-fatigue-monitor": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "care-variation-analysis-notebook-r": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "claims-loss-trend-lab-r": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "clinical-event-narrative-review-board": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "diagnostic-qc-evidence-router": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "donor-cohort-risk-lab-r": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "donor-stewardship-ops-console": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "eCommerce Platform": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 37
+    },
+    "entra-guest-access-governor": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "grant-compliance-evidence-desk": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "gxp-change-control-board": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "incident-handoff-runbook-kit": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "intune-app-protection-lab": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "kyc-refresh-case-router": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "lab-instrument-change-audit": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "merchant-risk-review-console": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "payment-reconciliation-exception-desk": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "pharmacovigilance-signal-router": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "powerbi-refresh-reliability-hub": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "program-outcome-proof-ledger": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "robot-fleet-exception-board": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "sensor-health-drift-monitor": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "specimen-chain-of-custody-console": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "tenant-maintenance-escalation-console": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "treasury-liquidity-signal-lab": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "yield-forecast-studio": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    }
+  },
+  "bySpec": {
+    "aeo": {
+      "label": "aeo",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "agents": {
+      "label": "agents",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "classroomAUP": {
+      "label": "classroomAUP",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "clinicalAI": {
+      "label": "clinicalAI",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "decisions": {
+      "label": "decisions",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "evidence": {
+      "label": "evidence",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "incidents": {
+      "label": "incidents",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "prompts": {
+      "label": "prompts",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "studentAI": {
+      "label": "studentAI",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "toolCards": {
+      "label": "toolCards",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    },
+    "tutorCards": {
+      "label": "tutorCards",
+      "publishersDelta": 0,
+      "verifiedDelta": 0
+    }
+  }
+}
