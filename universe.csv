@@ -1579,3 +1579,428 @@ fluxcd.io,Dev Tools,GitOps for Kubernetes — Flux
 spinnaker.io,Dev Tools,Continuous delivery — Spinnaker
 nx.dev,Dev Tools,Monorepo build platform — Nx
 codefresh.io,Dev Tools,GitOps + CD — Codefresh (Octopus)
+thetradedesk.com,Adtech / Programmatic,Demand-side platform - TTD Kokai AI
+dv360.google.com,Adtech / Programmatic,DSP - Google Display and Video 360
+xandr.com,Adtech / Programmatic,Microsoft Advertising - Curate / Monetize
+criteo.com,Adtech / Programmatic,Commerce media - Criteo Predictive Bidding
+magnite.com,Adtech / Programmatic,SSP - Magnite SpringServe
+pubmatic.com,Adtech / Programmatic,SSP - PubMatic OpenWrap
+openx.com,Adtech / Programmatic,SSP - OpenX OpenAudience
+indexexchange.com,Adtech / Programmatic,Exchange - Index Exchange
+adform.com,Adtech / Programmatic,Adform FLOW DSP
+smartyads.com,Adtech / Programmatic,SmartyAds full stack
+adcolony.com,Adtech / Programmatic,Mobile DSP - Digital Turbine
+liftoff.io,Adtech / Programmatic,Mobile DSP - Liftoff/Vungle
+applovin.com,Adtech / Programmatic,AppLovin AXON 2.0
+appsflyer.com,Adtech / Programmatic,Mobile attribution + audience
+adjust.com,Adtech / Programmatic,Adjust (AppLovin) measurement
+branch.io,Adtech / Programmatic,Branch attribution + deep linking
+kochava.com,Adtech / Programmatic,Kochava ALAT identity
+singular.net,Adtech / Programmatic,Singular attribution + analytics
+id5.io,Adtech / Programmatic,ID5 Universal ID
+permutive.com,Adtech / Programmatic,Privacy-first audience - Permutive
+captify.co.uk,Adtech / Programmatic,Search intelligence audience
+lotame.com,Adtech / Programmatic,Lotame DMP / CDP hybrid
+merkle.com,Adtech / Programmatic,Merkle CRM / data agency
+epsilon.com,Adtech / Programmatic,Publicis Epsilon identity
+acxiom.com,Adtech / Programmatic,Acxiom InfoBase identity
+neustar.com,Adtech / Programmatic,Neustar OneID / TransUnion
+inrix.com,Adtech / Programmatic,INRIX traffic + location AI
+placeIQ.com,Adtech / Programmatic,PlaceIQ location measurement
+foursquare.com,Adtech / Programmatic,Foursquare Places + Attribution
+groundtruth.com,Adtech / Programmatic,GroundTruth location AI
+near.com,Adtech / Programmatic,Near location intelligence
+cuebiq.com,Adtech / Programmatic,Cuebiq location measurement
+integralads.com,Adtech / Programmatic,Integral Ad Science viewability
+doubleverify.com,Adtech / Programmatic,DoubleVerify ad verification
+moat.com,Adtech / Programmatic,Oracle Moat measurement
+comscore.com,Adtech / Programmatic,Comscore measurement
+nielsen.com,Adtech / Programmatic,Nielsen measurement
+samba.tv,Adtech / Programmatic,Samba TV ACR
+vizio.com,Adtech / Programmatic,Vizio Inscape ACR
+samsungads.com,Adtech / Programmatic,Samsung Ads CTV
+nbcunified.com,Adtech / Programmatic,NBCU One Platform CTV
+disneyadsales.com,Adtech / Programmatic,Disney Ads Sales clean room
+warnerbrosdiscovery.com,Adtech / Programmatic,WBD Olli clean room
+habu.com,Adtech / Programmatic,LiveRamp Habu clean room
+infosum.com,Adtech / Programmatic,InfoSum clean room
+optable.co,Adtech / Programmatic,Optable data clean room
+usercentrics.com,Adtech / Programmatic,Usercentrics CMP - Cookiebot owner
+trustarc.com,Adtech / Programmatic,TrustArc CMP + privacy
+cookieyes.com,Adtech / Programmatic,CookieYes CMP
+didomi.io,Adtech / Programmatic,Didomi CMP IAB TCF
+sourcepoint.com,Adtech / Programmatic,Sourcepoint Privacy Manager
+transcend.io,Adtech / Programmatic,Transcend consent automation
+ketch.com,Adtech / Programmatic,Ketch consent + privacy ops
+admiral.vg,Adtech / Programmatic,Admiral CMP + revenue recovery
+quantcast.com,Adtech / Programmatic,Quantcast Choice CMP + audience
+piano.io,Adtech / Programmatic,Piano CMP + subscriber AI
+blueconic.com,Adtech / Programmatic,BlueConic CDP / consent
+simon.io,Adtech / Programmatic,Simon Data CDP
+zeotap.com,Adtech / Programmatic,Zeotap CDP - EU-first
+ometria.com,Adtech / Programmatic,Ometria retail CDP
+dynamicyield.com,Adtech / Programmatic,Dynamic Yield (Mastercard) personalization
+monetate.com,Adtech / Programmatic,Monetate personalization
+nosto.com,Adtech / Programmatic,Nosto retail personalization
+rebuyengine.com,Adtech / Programmatic,Rebuy Shopify personalization
+klevu.com,Adtech / Programmatic,Klevu commerce AI search
+algolia.com,Adtech / Programmatic,Algolia AI search + recommend
+constructor.io,Adtech / Programmatic,Constructor product discovery AI
+mobileye.com,Mobility / AutoTech AI,Intel Mobileye ADAS
+cruise.com,Mobility / AutoTech AI,GM Cruise
+plus.ai,Mobility / AutoTech AI,Plus.ai autonomous trucking
+kodiak.ai,Mobility / AutoTech AI,Kodiak Robotics trucks
+torc.ai,Mobility / AutoTech AI,Daimler Torc Robotics
+embark-trucks.com,Mobility / AutoTech AI,Embark autonomous trucks
+motional.com,Mobility / AutoTech AI,Motional Hyundai-Aptiv
+wayve.ai,Mobility / AutoTech AI,Wayve learning-based driving
+five.ai,Mobility / AutoTech AI,Five AI autonomous vehicles
+oxbotica.com,Mobility / AutoTech AI,Oxa (Oxbotica)
+pony.ai,Mobility / AutoTech AI,Pony.ai robotaxi
+autox.ai,Mobility / AutoTech AI,AutoX robotaxi
+weride.ai,Mobility / AutoTech AI,WeRide autonomous mobility
+nio.com,Mobility / AutoTech AI,NIO autonomous + power
+xpeng.com,Mobility / AutoTech AI,XPeng XNGP autonomous
+li-auto.com,Mobility / AutoTech AI,Li Auto NOA
+teslamotors.com,Mobility / AutoTech AI,Tesla Autopilot / FSD
+rivian.com,Mobility / AutoTech AI,Rivian Driver+
+lucidmotors.com,Mobility / AutoTech AI,Lucid DreamDrive
+mercedes-benz.com,Mobility / AutoTech AI,Mercedes Drive Pilot Level 3
+bmw.com,Mobility / AutoTech AI,BMW Driving Assistant Pro
+audi.com,Mobility / AutoTech AI,Audi pre sense + adaptive cruise
+volvocars.com,Mobility / AutoTech AI,Volvo Pilot Assist
+toyota.com,Mobility / AutoTech AI,Toyota Safety Sense / Lexus
+honda.com,Mobility / AutoTech AI,Honda Sensing 360
+hyundai.com,Mobility / AutoTech AI,Hyundai Highway Driving Pilot
+subaru.com,Mobility / AutoTech AI,Subaru EyeSight
+nissan.com,Mobility / AutoTech AI,Nissan ProPILOT 2.0
+stellantis.com,Mobility / AutoTech AI,Stellantis AutoDrive L3
+polestar.com,Mobility / AutoTech AI,Polestar Pilot Assist
+here.com,Mobility / AutoTech AI,HERE Technologies mapping AI
+tomtom.com,Mobility / AutoTech AI,TomTom traffic + maps
+luminar.com,Mobility / AutoTech AI,Luminar LiDAR
+aeva.com,Mobility / AutoTech AI,Aeva FMCW LiDAR
+innovusion.com,Mobility / AutoTech AI,Innovusion Seyond LiDAR
+hesai.com,Mobility / AutoTech AI,Hesai Technology LiDAR
+cepton.com,Mobility / AutoTech AI,Cepton lidar
+ambarella.com,Mobility / AutoTech AI,Ambarella automotive SoC
+applied-intuition.com,Mobility / AutoTech AI,Applied Intuition simulation
+foretellix.com,Mobility / AutoTech AI,Foretellix coverage + safety
+rightware.com,Mobility / AutoTech AI,Rightware Kanzi HMI
+sonatus.com,Mobility / AutoTech AI,Sonatus vehicle SDV
+cerence.com,Mobility / AutoTech AI,Cerence in-car voice AI
+smartdrive.net,Mobility / AutoTech AI,Lytx (SmartDrive) fleet safety
+samsara.com,Mobility / AutoTech AI,Samsara fleet AI dash cams
+motive.com,Mobility / AutoTech AI,Motive (KeepTruckin) fleet AI
+netradyne.com,Mobility / AutoTech AI,Netradyne Driveri AI
+nauto.com,Mobility / AutoTech AI,Nauto driver safety AI
+c2a-sec.com,Mobility / AutoTech AI,C2A automotive cybersecurity
+upstream.auto,Mobility / AutoTech AI,Upstream automotive cybersecurity
+karambasecurity.com,Mobility / AutoTech AI,Karamba Security ECU
+guardknox.com,Mobility / AutoTech AI,GuardKnox vehicle ECU
+ridecell.com,Mobility / AutoTech AI,Ridecell fleet automation
+ridewithvia.com,Mobility / AutoTech AI,Via shared mobility AI
+lyft.com,Mobility / AutoTech AI,Lyft driver / rider AI
+incode.com,Biometric vendor,Incode identity biometric
+onfido.com,Biometric vendor,Onfido (Entrust) document + face
+jumio.com,Biometric vendor,Jumio identity + KYC biometric
+trulioo.com,Biometric vendor,Trulioo global identity verification
+au10tix.com,Biometric vendor,AU10TIX identity verification
+veriff.com,Biometric vendor,Veriff identity + liveness
+yoti.com,Biometric vendor,Yoti age + identity verification
+idemia.com,Biometric vendor,IDEMIA biometric ID + payment
+nec.com,Biometric vendor,NEC NeoFace biometric
+idmission.com,Biometric vendor,IDmission biometric ID
+paravisionai.com,Biometric vendor,Paravision face recognition
+clearview.ai,Biometric vendor,Clearview AI face recognition
+clear.com,Biometric vendor,CLEAR biometric travel + access
+daon.com,Biometric vendor,Daon IdentityX biometric platform
+aware.com,Biometric vendor,Aware Inc biometric
+cognitec.com,Biometric vendor,Cognitec face recognition
+anyvision.co,Biometric vendor,Oosto (AnyVision) face recognition
+trueface.ai,Biometric vendor,Trueface face recognition
+imageware.io,Biometric vendor,ImageWare Systems biometric
+crossmatch.com,Biometric vendor,HID Crossmatch fingerprint
+suprema.com,Biometric vendor,Suprema biometric access
+zkteco.com,Biometric vendor,ZKTeco fingerprint + face access
+fingerprintcards.com,Biometric vendor,Fingerprint Cards mobile biometric
+synaptics.com,Biometric vendor,Synaptics biometric sensors
+validsoft.com,Biometric vendor,ValidSoft voice biometric
+authid.ai,Biometric vendor,authID biometric authentication
+biocatch.com,Biometric vendor,BioCatch behavioral biometric
+typingdna.com,Biometric vendor,TypingDNA keystroke biometric
+revelock.com,Biometric vendor,Revelock (Feedzai) behavioral biometric
+zighra.com,Biometric vendor,Zighra continuous biometric
+bioidtech.com,Biometric vendor,BioID face biometric
+regulaforensics.com,Biometric vendor,Regula document + biometric forensics
+acuant.com,Biometric vendor,Acuant (GBG) ID + biometric
+evident.com,Biometric vendor,Evident ID verification + biometric
+persona.com,Biometric vendor,Persona identity verification + biometric
+ondato.com,Biometric vendor,Ondato KYC biometric
+sumsub.com,Biometric vendor,Sumsub KYC + biometric
+shuftipro.com,Biometric vendor,Shufti Pro KYC + biometric
+aratek.co,Biometric vendor,Aratek biometric solutions
+strongdm.com,Identity platform,StrongDM Zero Trust PAM
+teleport.com,Identity platform,Teleport identity-native infrastructure
+netskope.com,Identity platform,Netskope Zero Trust Engine
+rubrik.com,Identity platform,Rubrik Identity Recovery
+authsignal.com,Identity platform,Authsignal step-up authentication
+descope.com,Identity platform,Descope passwordless + flows
+stytch.com,Identity platform,Stytch passwordless + B2B
+frontegg.com,Identity platform,Frontegg B2B login
+workos.com,Identity platform,WorkOS SSO + SCIM for B2B
+clerk.dev,Identity platform,Clerk Authentication for React
+supertokens.com,Identity platform,SuperTokens open source auth
+ory.sh,Identity platform,Ory Cloud / Hydra / Kratos
+keycloak.org,Identity platform,Red Hat Keycloak
+logto.io,Identity platform,Logto open source identity
+zitadel.com,Identity platform,Zitadel cloud identity
+trinsic.id,Identity platform,Trinsic verifiable credentials
+spruceid.com,Identity platform,Spruce decentralized ID
+dock.io,Identity platform,Dock verifiable credentials
+dentity.com,Identity platform,Dentity verifiable credentials
+indicio.tech,Identity platform,Indicio decentralized identity
+walt.id,Identity platform,walt.id self-sovereign identity
+evernym.com,Identity platform,Evernym (Avast) SSI
+trueage.com,Identity platform,TrueAge age verification
+agechecked.com,Identity platform,AgeChecked verification
+idmerit.com,Identity platform,IDMerit identity
+idenfy.com,Identity platform,iDenfy KYC
+microblink.com,Identity platform,Microblink ID OCR + biometric
+netki.com,Identity platform,Netki KYC + KYB
+blockpass.org,Identity platform,Blockpass identity
+whylabs.ai,MLOps / Inference,WhyLabs LLM + ML observability
+evidentlyai.com,MLOps / Inference,Evidently AI monitoring
+aporia.com,MLOps / Inference,Aporia ML observability
+superwise.ai,MLOps / Inference,Superwise observability
+censius.ai,MLOps / Inference,Censius observability
+mona-labs.com,MLOps / Inference,Mona monitoring
+modelbit.com,MLOps / Inference,Modelbit deploy
+octoml.ai,MLOps / Inference,OctoAI inference
+banana.dev,MLOps / Inference,Banana serverless GPU
+vast.ai,MLOps / Inference,Vast.ai GPU marketplace
+paperspace.com,MLOps / Inference,Paperspace + Gradient
+crusoe.ai,MLOps / Inference,Crusoe AI cloud
+nebius.com,MLOps / Inference,Nebius AI cloud
+scaleway.com,MLOps / Inference,Scaleway AI infra
+ovhcloud.com,MLOps / Inference,OVHcloud AI inference
+seldon.io,MLOps / Inference,Seldon Core MLOps
+kubeflow.org,MLOps / Inference,Kubeflow Pipelines
+metaflow.org,MLOps / Inference,Metaflow (Netflix) ML
+polyaxon.com,MLOps / Inference,Polyaxon MLOps
+valohai.com,MLOps / Inference,Valohai MLOps
+iguazio.com,MLOps / Inference,Iguazio (McKinsey) MLOps
+dvc.org,MLOps / Inference,DVC data version control
+pachyderm.com,MLOps / Inference,Pachyderm versioned ML
+activeloop.ai,MLOps / Inference,Activeloop Deep Lake
+milvus.io,MLOps / Inference,Milvus (Zilliz) vector DB
+chroma.com,MLOps / Inference,Chroma open source vector DB
+vespa.ai,MLOps / Inference,Vespa (Yahoo) search + AI
+typesense.org,MLOps / Inference,Typesense open source search
+meilisearch.com,MLOps / Inference,Meilisearch open source
+featureform.com,MLOps / Inference,FeatureForm feature store
+hopsworks.ai,MLOps / Inference,Hopsworks feature store
+ray.io,MLOps / Inference,Ray distributed compute
+lakefs.io,MLOps / Inference,lakeFS data version control
+greatexpectations.io,MLOps / Inference,Great Expectations data quality
+monte-carlo-data.com,MLOps / Inference,Monte Carlo data observability
+databand.ai,MLOps / Inference,Databand (IBM) data observability
+anomalo.com,MLOps / Inference,Anomalo data quality
+mlflow.org,MLOps / Inference,MLflow Databricks open source
+voyado.com,Loyalty / Personalization,Voyado CDP + retail
+antavo.com,Loyalty / Personalization,Antavo loyalty platform
+loyaltylion.com,Loyalty / Personalization,LoyaltyLion Shopify
+smile.io,Loyalty / Personalization,Smile.io loyalty / rewards
+loyaltyplant.com,Loyalty / Personalization,LoyaltyPlant restaurants
+comarch.com,Loyalty / Personalization,Comarch loyalty / CDP
+annex-cloud.com,Loyalty / Personalization,Annex Cloud loyalty
+punchh.com,Loyalty / Personalization,Par Punchh restaurant loyalty
+paytronix.com,Loyalty / Personalization,Paytronix restaurant loyalty
+thanx.com,Loyalty / Personalization,Thanx restaurant loyalty
+salsify.com,Loyalty / Personalization,Salsify PXM + commerce
+akeneo.com,Loyalty / Personalization,Akeneo PIM
+inriver.com,Loyalty / Personalization,inriver PIM + commerce
+orocommerce.com,Loyalty / Personalization,OroCommerce B2B + AI
+intershop.com,Loyalty / Personalization,Intershop B2B commerce
+episerver.com,Loyalty / Personalization,Optimizely (Episerver) DXP
+acrolinx.com,Loyalty / Personalization,Acrolinx writing AI
+regie.ai,Loyalty / Personalization,Regie outbound sales AI
+liveclicker.com,Loyalty / Personalization,Liveclicker real-time email AI
+dotdigital.com,Loyalty / Personalization,dotdigital cross-channel
+acoustic.com,Loyalty / Personalization,Acoustic personalization
+optimove.com,Loyalty / Personalization,Optimove CDP + orchestration
+crossengage.io,Loyalty / Personalization,CrossEngage customer engagement
+totango.com,Loyalty / Personalization,Totango customer success AI
+johndeere.com,AgriTech / FoodTech AI,John Deere See and Spray AI
+cnhindustrial.com,AgriTech / FoodTech AI,CNH agriculture AI
+agco.com,AgriTech / FoodTech AI,AGCO Fendt AI
+climate.com,AgriTech / FoodTech AI,Climate FieldView (Bayer)
+blueriver.com,AgriTech / FoodTech AI,Blue River Technology (Deere)
+xagusa.com,AgriTech / FoodTech AI,XAG agricultural drones
+ceresimaging.net,AgriTech / FoodTech AI,Ceres Imaging crop AI
+taranis.com,AgriTech / FoodTech AI,Taranis crop intelligence
+granular.ag,AgriTech / FoodTech AI,Granular (Corteva) farm AI
+farmwise.io,AgriTech / FoodTech AI,FarmWise weeding robots
+indigoag.com,AgriTech / FoodTech AI,Indigo Ag carbon + crops
+benson-hill.com,AgriTech / FoodTech AI,Benson Hill crop genomics
+pivotbio.com,AgriTech / FoodTech AI,Pivot Bio nitrogen replacement
+croptrak.com,AgriTech / FoodTech AI,CropTrak supply chain AI
+hellotractor.com,AgriTech / FoodTech AI,Hello Tractor smallholder AI
+aerobotics.com,AgriTech / FoodTech AI,Aerobotics tree crops AI
+xfarm.ag,AgriTech / FoodTech AI,xFarm Technologies
+agworld.com,AgriTech / FoodTech AI,Agworld farm management
+trimble.com,AgriTech / FoodTech AI,Trimble agriculture precision
+plantix.net,AgriTech / FoodTech AI,Plantix crop disease AI
+dronedeploy.com,AgriTech / FoodTech AI,DroneDeploy field AI
+descartesag.com,AgriTech / FoodTech AI,Descartes Labs ag + climate
+foodlogiq.com,AgriTech / FoodTech AI,FoodLogiQ supply traceability
+foodchain.com,AgriTech / FoodTech AI,FoodChain ID food safety
+safetychain.com,AgriTech / FoodTech AI,SafetyChain QMS + AI
+traceable.ai,AgriTech / FoodTech AI,Traceable food traceability
+intelex.com,AgriTech / FoodTech AI,Intelex EHS + food safety
+repositrak.com,AgriTech / FoodTech AI,RepositorTrak food safety
+trace-one.com,AgriTech / FoodTech AI,Trace One product lifecycle
+tetrapak.com,AgriTech / FoodTech AI,Tetra Pak factory AI
+apeel.com,AgriTech / FoodTech AI,Apeel Sciences shelf-life AI
+connecterra.io,AgriTech / FoodTech AI,Connecterra cattle AI
+agrocares.com,AgriTech / FoodTech AI,AgroCares soil + feed AI
+teralytic.com,AgriTech / FoodTech AI,Teralytic soil sensors
+amadeus.com,TravelTech / Hospitality AI,Amadeus GDS + AI
+sabre.com,TravelTech / Hospitality AI,Sabre GDS + revenue AI
+travelport.com,TravelTech / Hospitality AI,Travelport GDS
+kayak.com,TravelTech / Hospitality AI,Kayak AI search
+booking.com,TravelTech / Hospitality AI,Booking.com AI Trip Planner
+priceline.com,TravelTech / Hospitality AI,Priceline Penny AI
+tripadvisor.com,TravelTech / Hospitality AI,Tripadvisor AI guides
+vrbo.com,TravelTech / Hospitality AI,Vrbo (Expedia) vacation rentals AI
+agoda.com,TravelTech / Hospitality AI,Agoda hotel AI
+trivago.com,TravelTech / Hospitality AI,Trivago metasearch AI
+hopper.com,TravelTech / Hospitality AI,Hopper price prediction AI
+layla.ai,TravelTech / Hospitality AI,Layla travel AI
+mindtrip.ai,TravelTech / Hospitality AI,Mindtrip travel planner AI
+toasttab.com,TravelTech / Hospitality AI,Toast restaurant AI
+lightspeedhq.com,TravelTech / Hospitality AI,Lightspeed POS + AI
+ihg.com,TravelTech / Hospitality AI,IHG Hotels AI personalization
+hilton.com,TravelTech / Hospitality AI,Hilton Honors + AI
+hyatt.com,TravelTech / Hospitality AI,Hyatt World of Hyatt AI
+accor.com,TravelTech / Hospitality AI,Accor ALL + AI
+choicehotels.com,TravelTech / Hospitality AI,Choice Hotels AI
+wyndhamhotels.com,TravelTech / Hospitality AI,Wyndham Hotels
+oyo.com,TravelTech / Hospitality AI,OYO Rooms AI
+siteminder.com,TravelTech / Hospitality AI,SiteMinder hotel platform
+trustyou.com,TravelTech / Hospitality AI,TrustYou guest experience AI
+revinate.com,TravelTech / Hospitality AI,Revinate hotel marketing AI
+duetto.com,TravelTech / Hospitality AI,Duetto revenue management AI
+ideas.com,TravelTech / Hospitality AI,IDeaS revenue management (SAS)
+airdna.co,TravelTech / Hospitality AI,AirDNA short-term rental analytics
+transparent.com,TravelTech / Hospitality AI,Transparent vacation rental AI
+rentalsunited.com,TravelTech / Hospitality AI,Rentals United channel manager
+guesty.com,TravelTech / Hospitality AI,Guesty short-term rental ops
+hostaway.com,TravelTech / Hospitality AI,Hostaway property management
+tripactions.com,TravelTech / Hospitality AI,Navan (TripActions) business travel AI
+egencia.com,TravelTech / Hospitality AI,Egencia (American Express GBT) AI
+amextravel.com,TravelTech / Hospitality AI,Amex GBT AI booking
+hellobenchmark.ai,AI safety / red-team / eval,Hellobenchmark eval
+trulens.ai,AI safety / red-team / eval,TruLens evaluation framework
+promptfoo.dev,AI safety / red-team / eval,Promptfoo open source eval
+rebuff.ai,AI safety / red-team / eval,Rebuff prompt injection
+promptarmor.com,AI safety / red-team / eval,PromptArmor LLM firewall
+ai-guardrails.ai,AI safety / red-team / eval,AI Guardrails
+robust-intelligence.com,AI safety / red-team / eval,Robust Intelligence AI firewall
+trojai.com,AI safety / red-team / eval,TrojAI defenses
+snyk.com,AI safety / red-team / eval,Snyk DeepCode AI security
+fairnow.ai,AI safety / red-team / eval,FairNow AI governance
+monitaur.ai,AI safety / red-team / eval,Monitaur ML governance
+lakera-guard.com,AI safety / red-team / eval,Lakera Guard
+prismaticai.com,AI safety / red-team / eval,Prismatic AI integration
+anthrogpt.ai,AI safety / red-team / eval,AnthroGPT eval
+phoenix-arize.com,AI safety / red-team / eval,Arize Phoenix open source
+openlayer.com,AI safety / red-team / eval,Openlayer LLM eval
+athina.ai,AI safety / red-team / eval,Athina LLM eval
+log10.io,AI safety / red-team / eval,Log10 LLM ops
+okareo.com,AI safety / red-team / eval,Okareo LLM testing
+klu.ai,AI safety / red-team / eval,Klu LLM eval
+novisto.com,Climate / ESG AI,Novisto ESG reporting
+workiva.com,Climate / ESG AI,Workiva ESG + SOX
+greenly.earth,Climate / ESG AI,Greenly carbon accounting
+ecochain.com,Climate / ESG AI,Ecochain LCA
+sphera.com,Climate / ESG AI,Sphera ESG + EHS
+enablon.com,Climate / ESG AI,Wolters Kluwer Enablon EHS
+envoria.com,Climate / ESG AI,Envoria CSRD reporting
+celsia.io,Climate / ESG AI,Celsia EU taxonomy
+ecoonline.com,Climate / ESG AI,EcoOnline EHS
+iceye.com,Climate / ESG AI,Iceye SAR climate intel
+satellogic.com,Climate / ESG AI,Satellogic earth observation
+planet.com,Climate / ESG AI,Planet Labs daily imagery
+pachama.com,Climate / ESG AI,Pachama forest carbon AI
+verra.org,Climate / ESG AI,Verra VCS registry
+carbon-direct.com,Climate / ESG AI,Carbon Direct removal AI
+running-tide.com,Climate / ESG AI,Running Tide ocean carbon
+charm-industrial.com,Climate / ESG AI,Charm Industrial bio-oil
+climeworks.com,Climate / ESG AI,Climeworks direct air capture
+carbonbrief.org,Climate / ESG AI,Carbon Brief climate research
+windward.eu,Climate / ESG AI,Windward maritime AI
+shipbob.com,Supply chain / logistics AI,ShipBob fulfillment
+deliverr.com,Supply chain / logistics AI,Deliverr (Shopify) fulfillment
+shippo.com,Supply chain / logistics AI,Shippo multi-carrier
+shipstation.com,Supply chain / logistics AI,ShipStation Auctane
+easypost.com,Supply chain / logistics AI,EasyPost shipping API
+shippingeasy.com,Supply chain / logistics AI,ShippingEasy
+logixboard.com,Supply chain / logistics AI,Logixboard freight forwarder ops
+armada.ai,Supply chain / logistics AI,Armada (Slync) freight
+transfix.io,Supply chain / logistics AI,Transfix digital brokerage
+convoy.com,Supply chain / logistics AI,Convoy (Flexport) freight
+uberfreight.com,Supply chain / logistics AI,Uber Freight AI
+loadsmart.com,Supply chain / logistics AI,Loadsmart digital brokerage
+manhattanassociates.com,Supply chain / logistics AI,Manhattan Associates WMS AI
+bluejaynetworks.com,Supply chain / logistics AI,Blue Yonder supply AI
+kinaxis.com,Supply chain / logistics AI,Kinaxis planning AI
+o9solutions.com,Supply chain / logistics AI,o9 Solutions planning
+atlasdb.io,Supply chain / logistics AI,Atlas demand AI
+tive.com,Supply chain / logistics AI,Tive shipment tracking IoT
+infor.com,Supply chain / logistics AI,Infor M3 + WMS
+manhattanwms.com,Supply chain / logistics AI,Manhattan WMOS AI
+siemens.com,Industrial / manufacturing AI,Siemens Industrial Edge AI
+abb.com,Industrial / manufacturing AI,ABB Ability industrial AI
+schneider-electric.com,Industrial / manufacturing AI,Schneider EcoStruxure
+ptc.com,Industrial / manufacturing AI,PTC ThingWorx + IoT AI
+aveva.com,Industrial / manufacturing AI,AVEVA Industrial AI
+uptake.com,Industrial / manufacturing AI,Uptake industrial AI
+tulip.co,Industrial / manufacturing AI,Tulip frontline ops
+augury.com,Industrial / manufacturing AI,Augury machine health AI
+cognex.com,Industrial / manufacturing AI,Cognex industrial vision
+landingai.com,Industrial / manufacturing AI,Landing AI defect detection
+instrumental.com,Industrial / manufacturing AI,Instrumental factory AI
+iquantum.com,Industrial / manufacturing AI,iQuantum manufacturing AI
+akenza.io,Industrial / manufacturing AI,Akenza IoT platform
+litmusautomation.com,Industrial / manufacturing AI,Litmus Edge AI
+highbyte.com,Industrial / manufacturing AI,HighByte industrial DataOps
+litmus.io,Industrial / manufacturing AI,Litmus Industrial DataOps
+ignition.com,Industrial / manufacturing AI,Inductive Automation Ignition
+kepware.com,Industrial / manufacturing AI,Kepware (PTC) industrial connectivity
+vector.ai,Industrial / manufacturing AI,Vector freight tech
+checkout.com,Payments + Fraud AI,Checkout.com fraud + auth
+braintreepayments.com,Payments + Fraud AI,Braintree (PayPal) fraud
+ravelin.com,Payments + Fraud AI,Ravelin fraud AI
+signifyd.com,Payments + Fraud AI,Signifyd commerce protection
+riskified.com,Payments + Fraud AI,Riskified ecommerce fraud AI
+forter.com,Payments + Fraud AI,Forter trust + fraud AI
+sift.com,Payments + Fraud AI,Sift digital trust + safety
+kount.com,Payments + Fraud AI,Kount (Equifax) digital fraud
+fis.com,Payments + Fraud AI,FIS Card Suite + fraud AI
+actimize.com,Payments + Fraud AI,NICE Actimize fraud + AML
+nasdaq-verafin.com,Payments + Fraud AI,Nasdaq Verafin AML
+sas.com,Payments + Fraud AI,SAS Anti-Money Laundering
+complyadvantage.com,Payments + Fraud AI,ComplyAdvantage screening
+alessa.com,Payments + Fraud AI,Alessa AML
+elliptic.co,Payments + Fraud AI,Elliptic crypto AML
+huggingface.co,Frontier lab,Hugging Face Hub + inference
+sambanova.ai,AI compute,SambaNova RDU inference
+cerebras.ai,AI compute,Cerebras CS-3 wafer-scale
+graphcore.ai,AI compute,Graphcore IPU
+tenstorrent.com,AI compute,Tenstorrent Wormhole
+rain.ai,AI compute,Rain AI neuromorphic
+mythic.ai,AI compute,Mythic analog AI compute
+etched.ai,AI compute,Etched transformer ASIC
+groqcloud.com,AI compute,GroqCloud LPU
+cerebras.net,AI compute,Cerebras Cloud
