@@ -2004,3 +2004,7 @@ mythic.ai,AI compute,Mythic analog AI compute
 etched.ai,AI compute,Etched transformer ASIC
 groqcloud.com,AI compute,GroqCloud LPU
 cerebras.net,AI compute,Cerebras Cloud
+cert.kineticgain.com,IAM / Privileged Access Governance,Kinetic Gain — CyberArk Access Certification Mesh
+jml.kineticgain.com,Workforce IAM / JML Governance,Kinetic Gain — Workforce-to-Privilege Identity Flow
+mt.kineticgain.com,Multi-tenant B2B SaaS Governance,Kinetic Gain — Tenant Boundary Risk Command Center
+pv.kineticgain.com,HealthTech / Pharma PV,Kinetic Gain — Pharmacovigilance Review and Reporting Hub
