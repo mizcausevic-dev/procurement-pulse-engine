@@ -1529,3 +1529,53 @@ apptio.com,FinOps,IBM Apptio
 cloudability.com,FinOps,IBM Cloudability
 finout.io,FinOps,Cost intelligence
 spot.io,FinOps,NetApp Spot
+getport.io,Platform Engineering,Internal Developer Platform — Port
+getcortex.io,Platform Engineering,Internal Developer Platform — Cortex
+humanitec.com,Platform Engineering,Internal Developer Platform — Humanitec
+roadie.io,Platform Engineering,Hosted Backstage IDP — Roadie
+configure8.io,Platform Engineering,Service catalog + IDP — Configure8
+faros.ai,Platform Engineering,Engineering intelligence platform — Faros AI
+radapp.io,Platform Engineering,Cloud-native runtime — Microsoft Radius
+loft.sh,Platform Engineering,vCluster + DevOps platform — Loft Labs
+octopus.com,Platform Engineering,Continuous delivery — Octopus Deploy
+gremlin.com,Chaos Engineering,Reliability testing platform — Gremlin
+steadybit.com,Chaos Engineering,Chaos engineering SaaS — Steadybit
+harness.io,Chaos Engineering,DevOps platform with chaos module — Harness
+chaos-mesh.org,Chaos Engineering,Kubernetes chaos engineering — Chaos Mesh
+pagerduty.com,Incident Response,On-call + incident response — PagerDuty
+opsgenie.com,Incident Response,On-call alerting — Atlassian Opsgenie
+rootly.com,Incident Response,Slack-native IR — Rootly
+incident.io,Incident Response,Modern IR platform — incident.io
+firehydrant.com,Incident Response,Reliability platform — FireHydrant
+blameless.com,Incident Response,SRE workflow — Blameless
+squadcast.com,Incident Response,Incident response + SRE — Squadcast
+transposit.com,Incident Response,Incident automation — Transposit
+ilert.com,Incident Response,Alerting + incident comms — ilert
+xmatters.com,Incident Response,Service reliability platform — xMatters
+opentelemetry.io,Observability,Open-source telemetry standard — OpenTelemetry
+observiq.com,Observability,Observability data platform — observIQ
+mezmo.com,Observability,Telemetry pipeline — Mezmo (formerly LogDNA)
+last9.io,Observability,High-cardinality observability — Last9
+instana.com,Observability,APM + observability — IBM Instana
+tracetest.io,Observability,Distributed-trace testing — Tracetest
+cloudzero.com,FinOps,Cloud cost intelligence — CloudZero
+kubecost.com,FinOps,Kubernetes cost monitoring — Kubecost (IBM)
+opencost.io,FinOps,Open-source K8s cost spec — OpenCost
+ternary.app,FinOps,Cloud cost management — Ternary
+yotascale.com,FinOps,Continuous cost management — Yotascale
+densify.com,FinOps,Resource optimization — Densify
+productboard.com,Product Operations,Product management platform — Productboard
+aha.io,Product Operations,Product roadmap + strategy — Aha!
+pendo.io,Product Operations,Product analytics + in-app — Pendo
+sprig.com,Product Operations,In-product surveys + product research — Sprig
+maze.co,Product Operations,Product research + usability — Maze
+spacelift.io,Dev Tools,IaC management platform — Spacelift
+env0.com,Dev Tools,Terraform automation — env0
+scalr.com,Dev Tools,Terraform automation — Scalr
+circleci.com,Dev Tools,CI/CD platform — CircleCI
+buildkite.com,Dev Tools,CI/CD platform — Buildkite
+argoproj.io,Dev Tools,GitOps + workflow — Argo Project
+fluxcd.io,Dev Tools,GitOps for Kubernetes — Flux
+spinnaker.io,Dev Tools,Continuous delivery — Spinnaker
+nx.dev,Dev Tools,Monorepo build platform — Nx
+codefresh.io,Dev Tools,GitOps + CD — Codefresh (Octopus)
