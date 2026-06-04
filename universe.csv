@@ -1926,18 +1926,18 @@ handoff.kineticgain.com,Workflow / Integration,Operator surface (integration evi
 policy.kineticgain.com,Workforce / Internal Comm,Operator surface (employee AI acceptable-use board — v2 strategy Workforce sub-vertical) — v1.0-prod 2026-05-28
 workforce.kineticgain.com,Workforce / Internal Comm,Operator surface (UKG workforce disclosure mirror — v2 strategy Workforce sub-vertical anchor) — v1.0-prod 2026-05-28
 jml.kineticgain.com,Workforce IAM / JML Governance,Kinetic Gain — Workforce-to-Privilege Identity Flow
-certs.kineticgain.com,access-certification-api-dotnet,Microsoft ecosystem
-assay.kineticgain.com,assay-release-readiness-board,HealthTech operator (GxP-territory)
-backup.kineticgain.com,backup-restore-drill-runner,Standard operator
-capa.kineticgain.com,batch-deviation-capa-ledger,HealthTech operator (GxP-territory)
-accesslog.kineticgain.com,building-access-audit-ledger,Standard operator
-appeals.kineticgain.com,campaign-appeal-fatigue-monitor,Julia operator (Growth Ops/Nonprofit)
-care.kineticgain.com,care-variation-analysis-notebook-r,R notebook (HealthTech analytics)
-loss.kineticgain.com,claims-loss-trend-lab-r,R notebook (InsurTech analytics)
-narrative.kineticgain.com,clinical-event-narrative-review-board,HealthTech operator (clinical)
-diagnostics.kineticgain.com,diagnostic-qc-evidence-router,HealthTech operator (GxP-territory)
-donors.kineticgain.com,donor-cohort-risk-lab-r,R notebook (Nonprofit analytics)
-stewardship.kineticgain.com,donor-stewardship-ops-console,Vertical operator (nonprofit/donor)
+certs.kineticgain.com,Identity & Security,Microsoft ecosystem
+assay.kineticgain.com,HealthTech,HealthTech operator (GxP-territory)
+backup.kineticgain.com,Chaos Engineering,Standard operator
+capa.kineticgain.com,HealthTech,HealthTech operator (GxP-territory)
+accesslog.kineticgain.com,Identity & Security,Standard operator
+appeals.kineticgain.com,Growth Ops,Julia operator (Growth Ops/Nonprofit)
+care.kineticgain.com,HealthTech,R notebook (HealthTech analytics)
+loss.kineticgain.com,Insurance AI,R notebook (InsurTech analytics)
+narrative.kineticgain.com,HealthTech,HealthTech operator (clinical)
+diagnostics.kineticgain.com,HealthTech,HealthTech operator (GxP-territory)
+donors.kineticgain.com,Vertical SaaS,R notebook (Nonprofit analytics)
+stewardship.kineticgain.com,Vertical SaaS,Vertical operator (nonprofit/donor)
 bigcommerce.com,eCommerce Platform,Headless-capable commerce
 centra.com,eCommerce Platform,Headless commerce
 commercetools.com,eCommerce Platform,Composable commerce
@@ -1975,24 +1975,24 @@ vendure.io,eCommerce Platform,Headless commerce
 vtex.com,eCommerce Platform,Composable commerce
 woocommerce.com,eCommerce Platform,WooCommerce
 yotpo.com,eCommerce Platform,Reviews + loyalty
-guest.kineticgain.com,entra-guest-access-governor,Microsoft ecosystem
-grants.kineticgain.com,grant-compliance-evidence-desk,Vertical operator (nonprofit/grant)
-gxp.kineticgain.com,gxp-change-control-board,HealthTech operator (GxP-territory)
-runbook.kineticgain.com,incident-handoff-runbook-kit,Standard operator
-protect.kineticgain.com,intune-app-protection-lab,Microsoft ecosystem
-kyc.kineticgain.com,kyc-refresh-case-router,FinTech/AML operator
-instruments.kineticgain.com,lab-instrument-change-audit,HealthTech operator (GxP-territory)
-merchant.kineticgain.com,merchant-risk-review-console,FinTech/PSP operator
-payments.kineticgain.com,payment-reconciliation-exception-desk,FinTech operator
-safety.kineticgain.com,pharmacovigilance-signal-router,HealthTech operator (PV/safety)
-powerbi.kineticgain.com,powerbi-refresh-reliability-hub,Microsoft ecosystem
-outcomes.kineticgain.com,program-outcome-proof-ledger,Python operator (Nonprofit/Grant)
-robots.kineticgain.com,robot-fleet-exception-board,Operations operator
-sensor.kineticgain.com,sensor-health-drift-monitor,IoT operator
-specimen.kineticgain.com,specimen-chain-of-custody-console,HealthTech operator (clinical)
-tenant.kineticgain.com,tenant-maintenance-escalation-console,PropTech operator
-treasury.kineticgain.com,treasury-liquidity-signal-lab,Julia operator (FinTech)
-yield.kineticgain.com,yield-forecast-studio,Julia operator (Operations/Forecasting)
+guest.kineticgain.com,Identity & Security,Microsoft ecosystem
+grants.kineticgain.com,Vertical SaaS,Vertical operator (nonprofit/grant)
+gxp.kineticgain.com,HealthTech,HealthTech operator (GxP-territory)
+runbook.kineticgain.com,Incident Response,Standard operator
+protect.kineticgain.com,Identity/MDM,Microsoft ecosystem
+kyc.kineticgain.com,FinTech,FinTech/AML operator
+instruments.kineticgain.com,HealthTech,HealthTech operator (GxP-territory)
+merchant.kineticgain.com,Payments + Fraud AI,FinTech/PSP operator
+payments.kineticgain.com,FinTech,FinTech operator
+safety.kineticgain.com,HealthTech / Pharma PV,HealthTech operator (PV/safety)
+powerbi.kineticgain.com,Observability,Microsoft ecosystem
+outcomes.kineticgain.com,Vertical SaaS,Python operator (Nonprofit/Grant)
+robots.kineticgain.com,Robotics AI,Operations operator
+sensor.kineticgain.com,OT / IoT Security,IoT operator
+specimen.kineticgain.com,HealthTech,HealthTech operator (clinical)
+tenant.kineticgain.com,Vertical SaaS,PropTech operator
+treasury.kineticgain.com,FinTech,Julia operator (FinTech)
+yield.kineticgain.com,Industrial / manufacturing AI,Julia operator (Operations/Forecasting)
 e2open.com,Supply Chain,Multi-enterprise supply chain platform
 transporeon.com,Supply Chain,European transport management network
 descartes.com,Supply Chain,Logistics networks + customs filing
