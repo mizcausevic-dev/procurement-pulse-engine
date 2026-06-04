@@ -1993,3 +1993,53 @@ specimen.kineticgain.com,specimen-chain-of-custody-console,HealthTech operator (
 tenant.kineticgain.com,tenant-maintenance-escalation-console,PropTech operator
 treasury.kineticgain.com,treasury-liquidity-signal-lab,Julia operator (FinTech)
 yield.kineticgain.com,yield-forecast-studio,Julia operator (Operations/Forecasting)
+e2open.com,Supply Chain,Multi-enterprise supply chain platform
+transporeon.com,Supply Chain,European transport management network
+descartes.com,Supply Chain,Logistics networks + customs filing
+blumeglobal.com,Supply Chain,Global trade + logistics visibility
+ratelinx.com,Supply Chain,Shipment cost + carrier intelligence
+shippeo.com,Supply Chain,Real-time multimodal transport visibility (EU)
+sectrio.com,OT / IoT Security,OT / IoT / IT cyber defense
+scadafence.com,OT / IoT Security,OT + ICS network monitoring (Honeywell)
+runzero.com,OT / IoT Security,Active asset discovery for IT/OT/IoT
+otorio.com,OT / IoT Security,OT cybersecurity + risk management
+opswat.com,OT / IoT Security,Critical infrastructure protection + perimeter scanning
+litmuschaos.io,Chaos Engineering,CNCF chaos engineering platform
+chaostoolkit.org,Chaos Engineering,Open chaos engineering toolkit
+speedscale.com,Chaos Engineering,Production traffic replay + load testing
+chaosiq.io,Chaos Engineering,Chaos engineering as a service
+snapsheet.me,Insurance AI,Claims automation + virtual appraisal
+akur8.com,Insurance AI,ML-driven actuarial pricing for insurers
+pie-insurance.com,Insurance AI,SMB workers' comp via ML pricing
+coalition.com,Insurance AI,Active cyber insurance + risk monitoring
+planck.ai,Insurance AI,Commercial insurance data platform
+normative.io,Climate & ESG,Net-zero carbon accounting
+sustain.life,Climate & ESG,GHG measurement + reduction platform
+emitwise.com,Climate & ESG,Scope 1/2/3 emissions accounting
+climatiq.io,Climate & ESG,Emissions factor API for developers
+patch.io,Climate & ESG,Carbon removal + offset API
+dovetail.com,Product Operations,Customer research repository + insights
+canny.io,Product Operations,Customer feedback + roadmap management
+chameleon.io,Product Operations,Product adoption tours + nudges
+userpilot.com,Product Operations,Product-led growth + onboarding analytics
+enphase.com,Energy,Residential solar + microinverter platform
+sunrun.com,Energy,US residential solar + storage operator
+octopus.energy,Energy,Smart-meter + tariff-optimized energy retail (UK/US)
+span.io,Energy,Smart electrical panel + home energy mgmt
+vade.com,Email Security,AI-powered email security (M365)
+ironscales.com,Email Security,Anti-phishing + BEC defense
+inky.com,Email Security,Computer-vision phishing protection
+material.security,Email Security,Post-delivery email security + content masking
+accuknox.com,Cloud Security,Runtime security + zero-trust K8s posture
+caveonix.com,Cloud Security,Multi-cloud regulatory + risk posture
+bridgecrew.io,Cloud Security,IaC + cloud posture management (Palo Alto)
+panoptica.app,Cloud Security,Cisco's cloud-native app protection platform
+shield-ai.com,Government / Defense,Autonomous defense AI + Hivemind
+hawkeye360.com,Government / Defense,RF-signal geospatial intelligence
+rebelliondefense.com,Government / Defense,Defense AI + decision platforms (US)
+saildrone.com,Government / Defense,Uncrewed surface vehicles for maritime ISR
+epirus.com,Government / Defense,Directed-energy / drone-defeat platforms
+amdocs.com,Media / Telecom,Telecom BSS/OSS + customer experience
+mavenir.com,Media / Telecom,Cloud-native 5G + Open RAN software
+ciena.com,Media / Telecom,Optical networking + WAN automation
+arista.com,Media / Telecom,Cloud + datacenter networking + EOS
