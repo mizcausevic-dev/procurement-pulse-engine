@@ -1,0 +1,617 @@
+{
+  "from": "issue-4-v04-full",
+  "to": "issue-2026-08",
+  "generatedAt": "2026-08-15T14:15:17.724Z",
+  "headline": {
+    "universeTotalDelta": 1145,
+    "domainsPublishingAnyDelta": -1,
+    "publicationRateDelta": -0.0011,
+    "avgScoreDelta": -0.1,
+    "verifiedRateDelta": -1
+  },
+  "byVertical": {
+    "AI Agent Platform": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 35
+    },
+    "AI Coding & Developer AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 30
+    },
+    "AI Data Labeling": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 32
+    },
+    "AI Platform": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": -4
+    },
+    "AI Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 10
+    },
+    "AI agents tooling": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "AI compute": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 9
+    },
+    "AI governance vendor": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "AI safety / red-team / eval": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 20
+    },
+    "Adtech / Programmatic": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 67
+    },
+    "AgriTech / FoodTech AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 34
+    },
+    "Asset Management": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Automotive / Robotics": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Biometric vendor": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 39
+    },
+    "CX / Support AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Chaos Engineering": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 9
+    },
+    "Claims vs Reality Engine": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Climate & ESG": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 10
+    },
+    "Climate / ESG AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 20
+    },
+    "Cloud Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 12
+    },
+    "Customer Data Platform": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 25
+    },
+    "Customer Service Platform": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 30
+    },
+    "Data": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": -1
+    },
+    "Dev Tools": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 12
+    },
+    "DevSecOps": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 12
+    },
+    "Document & eSignature": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 24
+    },
+    "EdTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Edge AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 3
+    },
+    "Email Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 8
+    },
+    "Energy": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 4
+    },
+    "Enterprise SaaS": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": -1
+    },
+    "Federated learning": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "FinOps": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 12
+    },
+    "FinTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 3
+    },
+    "Fortune 500": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Frontier lab": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "GRC / Compliance": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 12
+    },
+    "Government / Defense": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 7
+    },
+    "Growth Ops": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "HR / Recruiting AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "HealthTech": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 8
+    },
+    "HealthTech / Pharma PV": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "IAM / Microsoft Graph permission governance": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "IAM / Privileged Access Governance": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Identity & Security": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 5
+    },
+    "Identity platform": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 29
+    },
+    "Identity/MDM": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "Incident Response": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 11
+    },
+    "Industrial / manufacturing AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 20
+    },
+    "Insurance AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 6
+    },
+    "Legal / Contract": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Legal / Disclosure": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Legal AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Loyalty / Personalization": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 24
+    },
+    "MLOps / AI Infra": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 9
+    },
+    "MLOps / Inference": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 38
+    },
+    "MarTech": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 63
+    },
+    "Marketing / Content AI": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Media / Telecom": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 4
+    },
+    "Mid-Market HR/Payroll": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 48
+    },
+    "Mobile / Field Ops": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Mobility / AutoTech AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 55
+    },
+    "Multi-tenant B2B SaaS Governance": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "OT / IoT Security": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 10
+    },
+    "Observability": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 8
+    },
+    "Payments + Fraud AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 16
+    },
+    "Platform Engineering": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 9
+    },
+    "Product Operations": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 9
+    },
+    "Reference": {
+      "status": "changed",
+      "publicationRateDelta": -0.1429,
+      "avgScoreDelta": -14.3,
+      "domainsDelta": 44
+    },
+    "Retail / Commerce": {
+      "status": "changed",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 0
+    },
+    "Revenue Infrastructure Scorecard": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Robotics AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 5
+    },
+    "SecOps": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 11
+    },
+    "Speech AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "Supply Chain": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 11
+    },
+    "Supply chain / logistics AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 20
+    },
+    "Support AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Synthetic data": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 4
+    },
+    "Talent AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "TravelTech / Hospitality AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 35
+    },
+    "Uncategorized": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Vendor Replacement Intelligence": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Vendor Risk": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 9
+    },
+    "Vertical SaaS": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 88
+    },
+    "Voice AI": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 3
+    },
+    "WordPress Member Journey Consent Kit": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Workflow / BPM": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Workflow / Integration": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "Workforce / Internal Comm": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 2
+    },
+    "Workforce IAM / JML Governance": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 1
+    },
+    "eCommerce Platform": {
+      "status": "new",
+      "publicationRateDelta": 0,
+      "avgScoreDelta": 0,
+      "domainsDelta": 37
+    }
+  },
+  "bySpec": {
+    "aeo": {
+      "label": "aeo",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "agents": {
+      "label": "agents",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "classroomAUP": {
+      "label": "classroomAUP",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "clinicalAI": {
+      "label": "clinicalAI",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "decisions": {
+      "label": "decisions",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "evidence": {
+      "label": "evidence",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "incidents": {
+      "label": "incidents",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "prompts": {
+      "label": "prompts",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "studentAI": {
+      "label": "studentAI",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "toolCards": {
+      "label": "toolCards",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    },
+    "tutorCards": {
+      "label": "tutorCards",
+      "publishersDelta": -1,
+      "verifiedDelta": -1
+    }
+  }
+}
